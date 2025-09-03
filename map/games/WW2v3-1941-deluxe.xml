@@ -1,0 +1,3133 @@
+<?xml version="1.0"?>
+<!DOCTYPE game SYSTEM "game.dtd">
+<game>
+  <info name="World War II v3 1941 Deluxe" version="1.7"/>
+  <loader javaClass="games.strategy.triplea.TripleA"/>
+  <triplea minimumVersion="1.7"/>
+  <map>
+    <!-- Territory Definitions -->
+<!-- Territory Definitions -->
+<territory name="1 Sea Zone" water="true"/>
+<territory name="2a Sea Zone" water="true"/>
+<territory name="2b Sea Zone" water="true"/>
+<territory name="3 Sea Zone" water="true"/>
+<territory name="4 Sea Zone" water="true"/>
+<territory name="5a Sea Zone" water="true"/>
+<territory name="5b Sea Zone" water="true"/>
+<territory name="6 Sea Zone" water="true"/>
+<territory name="7 Sea Zone" water="true"/>
+<territory name="8 Sea Zone" water="true"/>
+<territory name="9 Sea Zone" water="true"/>
+<territory name="10 Sea Zone" water="true"/>
+<territory name="11 Sea Zone" water="true"/>
+<territory name="12 Sea Zone" water="true"/>
+<territory name="13a Sea Zone" water="true"/>
+<territory name="13b Sea Zone" water="true"/>
+<territory name="14a Sea Zone" water="true"/>
+<territory name="14b Sea Zone" water="true"/>
+<territory name="14c Sea Zone" water="true"/>
+<territory name="15 Sea Zone" water="true"/>
+<territory name="16a Sea Zone" water="true"/>
+<territory name="16b Sea Zone" water="true"/>
+<territory name="17 Sea Zone" water="true"/>
+<territory name="18 Sea Zone" water="true"/>
+<territory name="19 Sea Zone" water="true"/>
+<territory name="20 Sea Zone" water="true"/>
+<territory name="21 Sea Zone" water="true"/>
+<territory name="22 Sea Zone" water="true"/>
+<territory name="23 Sea Zone" water="true"/>
+<territory name="24 Sea Zone" water="true"/>
+<territory name="25 Sea Zone" water="true"/>
+<territory name="26 Sea Zone" water="true"/>
+<territory name="27 Sea Zone" water="true"/>
+<territory name="28 Sea Zone" water="true"/>
+<territory name="29 Sea Zone" water="true"/>
+<territory name="30 Sea Zone" water="true"/>
+<territory name="31 Sea Zone" water="true"/>
+<territory name="32 Sea Zone" water="true"/>
+<territory name="33 Sea Zone" water="true"/>
+<territory name="34a Sea Zone" water="true"/>
+<territory name="34b Sea Zone" water="true"/>
+<territory name="35a Sea Zone" water="true"/>
+<territory name="35b Sea Zone" water="true"/>
+<territory name="36 Sea Zone" water="true"/>
+<territory name="37 Sea Zone" water="true"/>
+<territory name="38a Sea Zone" water="true"/>
+<territory name="38b Sea Zone" water="true"/>
+<territory name="39a Sea Zone" water="true"/>
+<territory name="39b Sea Zone" water="true"/>
+<territory name="40 Sea Zone" water="true"/>
+<territory name="41 Sea Zone" water="true"/>
+<territory name="42 Sea Zone" water="true"/>
+<territory name="43 Sea Zone" water="true"/>
+<territory name="44 Sea Zone" water="true"/>
+<territory name="45 Sea Zone" water="true"/>
+<territory name="46 Sea Zone" water="true"/>
+<territory name="47 Sea Zone" water="true"/>
+<territory name="48a Sea Zone" water="true"/>
+<territory name="48b Sea Zone" water="true"/>
+<territory name="48c Sea Zone" water="true"/>
+<territory name="49a Sea Zone" water="true"/>
+<territory name="49b Sea Zone" water="true"/>
+<territory name="50a Sea Zone" water="true"/>
+<territory name="50b Sea Zone" water="true"/>
+<territory name="51 Sea Zone" water="true"/>
+<territory name="52 Sea Zone" water="true"/>
+<territory name="53 Sea Zone" water="true"/>
+<territory name="54 Sea Zone" water="true"/>
+<territory name="55a Sea Zone" water="true"/>
+<territory name="55b Sea Zone" water="true"/>
+<territory name="56a Sea Zone" water="true"/>
+<territory name="56b Sea Zone" water="true"/>
+<territory name="56c Sea Zone" water="true"/>
+<territory name="57a Sea Zone" water="true"/>
+<territory name="57b Sea Zone" water="true"/>
+<territory name="58a Sea Zone" water="true"/>
+<territory name="58b Sea Zone" water="true"/>
+<territory name="59a Sea Zone" water="true"/>
+<territory name="59b Sea Zone" water="true"/>
+<territory name="60 Sea Zone" water="true"/>
+<territory name="61a Sea Zone" water="true"/>
+<territory name="61b Sea Zone" water="true"/>
+<territory name="62a Sea Zone" water="true"/>
+<territory name="62b Sea Zone" water="true"/>
+<territory name="63a Sea Zone" water="true"/>
+<territory name="63b Sea Zone" water="true"/>
+<territory name="64a Sea Zone" water="true"/>
+<territory name="64b Sea Zone" water="true"/>
+<territory name="65a Sea Zone" water="true"/>
+<territory name="65b Sea Zone" water="true"/>
+<territory name="Afghanistan"/>
+<territory name="Alaska"/>
+<territory name="Aleutians"/>
+<territory name="Algeria"/>
+<territory name="Amur"/>
+<territory name="Sudan"/>
+<territory name="Angola"/>
+<territory name="Archangel"/>
+<territory name="Argentina Chile"/>
+<territory name="Armenia"/>
+<territory name="Balkans"/>
+<territory name="Baltic States"/>
+<territory name="Belgian Congo"/>
+<territory name="Belorussia"/>
+<territory name="Bengal"/>
+<territory name="Borneo"/>
+<territory name="Brazil"/>
+<territory name="Bulgaria"/>
+<territory name="Burma"/>
+<territory name="Buryatia S.S.R."/>
+<territory name="Caroline Islands"/>
+<territory name="Caspian Sub Sea Zone" water="true"/>
+<territory name="Caucasus"/>
+<territory name="Celebes"/>
+<territory name="Central United States"/>
+<territory name="Ceylon"/>
+<territory name="Chinghai"/>
+<territory name="Corsica"/>
+<territory name="Crete"/>
+<territory name="Cuba"/>
+<territory name="Czechoslovakia Hungary"/>
+<territory name="East Poland"/>
+<territory name="Eastern Australia"/>
+<territory name="Eastern Canada"/>
+<territory name="Eastern Ukraine"/>
+<territory name="Eastern United States"/>
+<territory name="Egypt"/>
+<territory name="Eire"/>
+<territory name="Ethiopia"/>
+<territory name="Evenki National Okrug"/>
+<territory name="Finland"/>
+<territory name="Formosa"/>
+<territory name="France"/>
+<territory name="French Equatorial Africa"/>
+<territory name="French Madagascar"/>
+<territory name="French West Africa"/>
+<territory name="Fukien"/>
+<territory name="Germany"/>
+<territory name="Gibraltar"/>
+<territory name="Greece"/>
+<territory name="Greenland"/>
+<territory name="Guam"/>
+<territory name="Haiti"/>
+<territory name="Hawaiian Islands"/>
+<territory name="Henan"/>
+<territory name="Himalaya"/>
+<territory name="Hokkaido"/>
+<territory name="Hubei"/>
+<territory name="Hulunbuir"/>
+<territory name="Hunan"/>
+<territory name="Iceland"/>
+<territory name="India"/>
+<territory name="Indochina"/>
+<territory name="Iraq"/>
+<territory name="Irkutsk"/>
+<territory name="Italy"/>
+<territory name="Iwo Jima"/>
+<territory name="Japan"/>
+<territory name="Java"/>
+<territory name="Karelia S.S.R."/>
+<territory name="Kazakh S.S.R."/>
+<territory name="Kenya"/>
+<territory name="Kiangsu"/>
+<territory name="Korea"/>
+<territory name="Kwangtung"/>
+<territory name="Kyushu"/>
+<territory name="Leningrad"/>
+<territory name="Libya"/>
+<territory name="Malaya"/>
+<territory name="Malta"/>
+<territory name="Manchuria"/>
+<territory name="Marshall Islands"/>
+<territory name="Mexico"/>
+<territory name="Midway"/>
+<territory name="Mongolia"/>
+<territory name="Morocco"/>
+<territory name="Mozambique"/>
+<territory name="Naples"/>
+<territory name="New Guinea"/>
+<territory name="New Zealand"/>
+<territory name="Nigeria"/>
+<territory name="Ningxia"/>
+<territory name="Normandy"/>
+<territory name="Northern Australia"/>
+<territory name="Northern South America"/>
+<territory name="NW Europe"/>
+<territory name="Norway"/>
+<territory name="Novosibirsk"/>
+<territory name="Okinawa"/>
+<territory name="Panama"/>
+<territory name="Papua"/>
+<territory name="Persia"/>
+<territory name="Peruvian Central"/>
+<territory name="Philippine Islands"/>
+<territory name="Poland"/>
+<territory name="Rhodesia"/>
+<territory name="Romania"/>
+<territory name="Russia"/>
+<territory name="Sahara"/>
+<territory name="Sakhalin"/>
+<territory name="Sardinia"/>
+<territory name="Saudi Arabia"/>
+<territory name="Shikoku"/>
+<territory name="Siberia"/>
+<territory name="Sicily"/>
+<territory name="Solomon Islands"/>
+<territory name="Soviet Far East"/>
+<territory name="Spain"/>
+<territory name="Suiyuan"/>
+<territory name="Sumatra"/>
+<territory name="Sweden"/>
+<territory name="Switzerland"/>
+<territory name="Syria"/>
+<territory name="Szechuan"/>
+<territory name="Tahiti"/>
+<territory name="Thailand"/>
+<territory name="Tibet"/>
+<territory name="Tobruk"/>
+<territory name="Trans-Jordan"/>
+<territory name="Turkestan"/>
+<territory name="Turkey"/>
+<territory name="Ukraine"/>
+<territory name="Union of South Africa"/>
+<territory name="United Kingdom"/>
+<territory name="Urals"/>
+<territory name="Vichy"/>
+<territory name="Volga"/>
+<territory name="Vologda"/>
+<territory name="Wake Island"/>
+<territory name="Western Australia"/>
+<territory name="Western Canada"/>
+<territory name="Western United States"/>
+<territory name="Xinjiang"/>
+<territory name="Yakut S.S.R."/>
+<territory name="Yunnan"/>
+
+<!-- Territory Connections -->
+<connection t1="Mexico" t2="Panama"/>
+<connection t1="Northern South America" t2="Panama"/>
+<connection t1="Western Canada" t2="Eastern Canada"/>
+<connection t1="Central United States" t2="Eastern United States"/>
+
+
+<connection t1="1 Sea Zone" t2="2a Sea Zone"/>
+<connection t1="1 Sea Zone" t2="2b Sea Zone"/>
+<connection t1="1 Sea Zone" t2="8 Sea Zone"/>
+<connection t1="1 Sea Zone" t2="9 Sea Zone"/>
+<connection t1="1 Sea Zone" t2="Eastern Canada"/>
+<connection t1="2a Sea Zone" t2="2b Sea Zone"/>
+<connection t1="2a Sea Zone" t2="Greenland"/>
+<connection t1="2b Sea Zone" t2="3 Sea Zone"/>
+<connection t1="2b Sea Zone" t2="8 Sea Zone"/>
+<connection t1="2b Sea Zone" t2="Eire"/>
+<connection t1="2b Sea Zone" t2="Iceland"/>
+<connection t1="2b Sea Zone" t2="United Kingdom"/>
+<connection t1="3 Sea Zone" t2="4 Sea Zone"/>
+<connection t1="3 Sea Zone" t2="6 Sea Zone"/>
+<connection t1="3 Sea Zone" t2="Norway"/>
+<connection t1="3 Sea Zone" t2="United Kingdom"/>
+<connection t1="4 Sea Zone" t2="Archangel"/>
+<connection t1="4 Sea Zone" t2="Finland"/>
+<connection t1="4 Sea Zone" t2="Karelia S.S.R."/>
+<connection t1="5a Sea Zone" t2="5b Sea Zone"/>
+<connection t1="5a Sea Zone" t2="6 Sea Zone"/>
+<connection t1="5a Sea Zone" t2="Finland"/>
+<connection t1="5a Sea Zone" t2="Germany"/>
+<connection t1="5a Sea Zone" t2="NW Europe"/>
+<connection t1="5a Sea Zone" t2="Norway"/>
+<connection t1="5a Sea Zone" t2="Poland"/>
+<connection t1="5a Sea Zone" t2="Sweden"/>
+<connection t1="5b Sea Zone" t2="Baltic States"/>
+<connection t1="5b Sea Zone" t2="Finland"/>
+<connection t1="5b Sea Zone" t2="Leningrad"/>
+<connection t1="6 Sea Zone" t2="7 Sea Zone"/>
+<connection t1="6 Sea Zone" t2="NW Europe"/>
+<connection t1="6 Sea Zone" t2="Norway"/>
+<connection t1="6 Sea Zone" t2="United Kingdom"/>
+<connection t1="7 Sea Zone" t2="8 Sea Zone"/>
+<connection t1="7 Sea Zone" t2="12 Sea Zone"/>
+<connection t1="7 Sea Zone" t2="Normandy"/>
+<connection t1="7 Sea Zone" t2="NW Europe"/>
+<connection t1="7 Sea Zone" t2="United Kingdom"/>
+<connection t1="8 Sea Zone" t2="9 Sea Zone"/>
+<connection t1="8 Sea Zone" t2="12 Sea Zone"/>
+<connection t1="8 Sea Zone" t2="Eire"/>
+<connection t1="8 Sea Zone" t2="United Kingdom"/>
+<connection t1="9 Sea Zone" t2="10 Sea Zone"/>
+<connection t1="9 Sea Zone" t2="11 Sea Zone"/>
+<connection t1="9 Sea Zone" t2="12 Sea Zone"/>
+<connection t1="9 Sea Zone" t2="Eastern Canada"/>
+<connection t1="9 Sea Zone" t2="Eastern United States"/>
+<connection t1="10 Sea Zone" t2="11 Sea Zone"/>
+<connection t1="10 Sea Zone" t2="19 Sea Zone"/>
+<connection t1="10 Sea Zone" t2="Eastern United States"/>
+<connection t1="10 Sea Zone" t2="Panama"/>
+<connection t1="11 Sea Zone" t2="12 Sea Zone"/>
+<connection t1="11 Sea Zone" t2="18 Sea Zone"/>
+<connection t1="11 Sea Zone" t2="19 Sea Zone"/>
+<connection t1="12 Sea Zone" t2="13a Sea Zone"/>
+<connection t1="12 Sea Zone" t2="17 Sea Zone"/>
+<connection t1="12 Sea Zone" t2="18 Sea Zone"/>
+<connection t1="12 Sea Zone" t2="Gibraltar"/>
+<connection t1="12 Sea Zone" t2="Morocco"/>
+<connection t1="12 Sea Zone" t2="Spain"/>
+<connection t1="13a Sea Zone" t2="13b Sea Zone"/>
+<connection t1="13a Sea Zone" t2="14b Sea Zone"/>
+<connection t1="13a Sea Zone" t2="Algeria"/>
+<connection t1="13a Sea Zone" t2="Gibraltar"/>
+<connection t1="13a Sea Zone" t2="Morocco"/>
+<connection t1="13a Sea Zone" t2="Sardinia"/>
+<connection t1="13a Sea Zone" t2="Spain"/>
+<connection t1="13b Sea Zone" t2="14a Sea Zone"/>
+<connection t1="13b Sea Zone" t2="Corsica"/>
+<connection t1="13b Sea Zone" t2="Sardinia"/>
+<connection t1="13b Sea Zone" t2="Spain"/>
+<connection t1="13b Sea Zone" t2="Vichy"/>
+<connection t1="14a Sea Zone" t2="14b Sea Zone"/>
+<connection t1="14a Sea Zone" t2="Corsica"/>
+<connection t1="14a Sea Zone" t2="Italy"/>
+<connection t1="14a Sea Zone" t2="Naples"/>
+<connection t1="14a Sea Zone" t2="Sardinia"/>
+<connection t1="14a Sea Zone" t2="Sicily"/>
+<connection t1="14a Sea Zone" t2="Vichy"/>
+<connection t1="14b Sea Zone" t2="14c Sea Zone"/>
+<connection t1="14b Sea Zone" t2="15 Sea Zone"/>
+<connection t1="14b Sea Zone" t2="Algeria"/>
+<connection t1="14b Sea Zone" t2="Greece"/>
+<connection t1="14b Sea Zone" t2="Crete"/>
+<connection t1="14b Sea Zone" t2="Libya"/>
+<connection t1="14b Sea Zone" t2="Malta"/>
+<connection t1="14b Sea Zone" t2="Naples"/>
+<connection t1="14b Sea Zone" t2="Sardinia"/>
+<connection t1="14b Sea Zone" t2="Sicily"/>
+<connection t1="14b Sea Zone" t2="Tobruk"/>
+<connection t1="14c Sea Zone" t2="Balkans"/>
+<connection t1="14c Sea Zone" t2="Greece"/>
+<connection t1="14c Sea Zone" t2="Italy"/>
+<connection t1="14c Sea Zone" t2="Naples"/>
+<connection t1="15 Sea Zone" t2="Bulgaria"/>
+<connection t1="15 Sea Zone" t2="Egypt"/>
+<connection t1="15 Sea Zone" t2="Syria"/>
+<connection t1="15 Sea Zone" t2="Tobruk"/>
+<connection t1="15 Sea Zone" t2="Trans-Jordan"/>
+<connection t1="15 Sea Zone" t2="Turkey"/>
+<connection t1="15 Sea Zone" t2="34a Sea Zone"/>
+<connection t1="16a Sea Zone" t2="16b Sea Zone"/>
+<connection t1="16a Sea Zone" t2="Bulgaria"/>
+<connection t1="16a Sea Zone" t2="Romania"/>
+<connection t1="16a Sea Zone" t2="Turkey"/>
+<connection t1="16a Sea Zone" t2="Ukraine"/>
+<connection t1="16b Sea Zone" t2="Armenia"/>
+<connection t1="16b Sea Zone" t2="Caucasus"/>
+<connection t1="16b Sea Zone" t2="Turkey"/>
+<connection t1="16b Sea Zone" t2="Ukraine"/>
+<connection t1="17 Sea Zone" t2="18 Sea Zone"/>
+<connection t1="17 Sea Zone" t2="22 Sea Zone"/>
+<connection t1="17 Sea Zone" t2="23 Sea Zone"/>
+<connection t1="17 Sea Zone" t2="French West Africa"/>
+<connection t1="17 Sea Zone" t2="Sahara"/>
+<connection t1="18 Sea Zone" t2="19 Sea Zone"/>
+<connection t1="18 Sea Zone" t2="22 Sea Zone"/>
+<connection t1="18 Sea Zone" t2="Brazil"/>
+<connection t1="19 Sea Zone" t2="Cuba"/>
+<connection t1="19 Sea Zone" t2="Haiti"/>
+<connection t1="19 Sea Zone" t2="Northern South America"/>
+<connection t1="19 Sea Zone" t2="Panama"/>
+<connection t1="19 Sea Zone" t2="20 Sea Zone"/>
+<connection t1="20 Sea Zone" t2="21 Sea Zone"/>
+<connection t1="20 Sea Zone" t2="55b Sea Zone"/>
+<connection t1="20 Sea Zone" t2="Northern South America"/>
+<connection t1="20 Sea Zone" t2="Panama"/>
+<connection t1="21 Sea Zone" t2="25 Sea Zone"/>
+<connection t1="21 Sea Zone" t2="44 Sea Zone"/>
+<connection t1="21 Sea Zone" t2="Argentina Chile"/>
+<connection t1="21 Sea Zone" t2="Peruvian Central"/>
+<connection t1="22 Sea Zone" t2="23 Sea Zone"/>
+<connection t1="22 Sea Zone" t2="24 Sea Zone"/>
+<connection t1="22 Sea Zone" t2="25 Sea Zone"/>
+<connection t1="22 Sea Zone" t2="Brazil"/>
+<connection t1="23 Sea Zone" t2="24 Sea Zone"/>
+<connection t1="23 Sea Zone" t2="27 Sea Zone"/>
+<connection t1="23 Sea Zone" t2="Angola"/>
+<connection t1="23 Sea Zone" t2="Belgian Congo"/>
+<connection t1="23 Sea Zone" t2="French Equatorial Africa"/>
+<connection t1="23 Sea Zone" t2="Nigeria"/>
+<connection t1="24 Sea Zone" t2="25 Sea Zone"/>
+<connection t1="24 Sea Zone" t2="26 Sea Zone"/>
+<connection t1="24 Sea Zone" t2="27 Sea Zone"/>
+<connection t1="25 Sea Zone" t2="26 Sea Zone"/>
+<connection t1="25 Sea Zone" t2="43 Sea Zone"/>
+<connection t1="25 Sea Zone" t2="Argentina Chile"/>
+<connection t1="26 Sea Zone" t2="27 Sea Zone"/>
+<connection t1="27 Sea Zone" t2="28 Sea Zone"/>
+<connection t1="27 Sea Zone" t2="Angola"/>
+<connection t1="27 Sea Zone" t2="Union of South Africa"/>
+<connection t1="28 Sea Zone" t2="29 Sea Zone"/>
+<connection t1="28 Sea Zone" t2="33 Sea Zone"/>
+<connection t1="28 Sea Zone" t2="French Madagascar"/>
+<connection t1="28 Sea Zone" t2="Union of South Africa"/>
+<connection t1="29 Sea Zone" t2="30 Sea Zone"/>
+<connection t1="29 Sea Zone" t2="32 Sea Zone"/>
+<connection t1="29 Sea Zone" t2="French Madagascar"/>
+<connection t1="30 Sea Zone" t2="31 Sea Zone"/>
+<connection t1="30 Sea Zone" t2="32 Sea Zone"/>
+<connection t1="30 Sea Zone" t2="39b Sea Zone"/>
+<connection t1="30 Sea Zone" t2="40 Sea Zone"/>
+<connection t1="31 Sea Zone" t2="32 Sea Zone"/>
+<connection t1="31 Sea Zone" t2="35a Sea Zone"/>
+<connection t1="31 Sea Zone" t2="35b Sea Zone"/>
+<connection t1="31 Sea Zone" t2="39b Sea Zone"/>
+<connection t1="32 Sea Zone" t2="33 Sea Zone"/>
+<connection t1="32 Sea Zone" t2="34a Sea Zone"/>
+<connection t1="32 Sea Zone" t2="34b Sea Zone"/>
+<connection t1="32 Sea Zone" t2="35a Sea Zone"/>
+<connection t1="32 Sea Zone" t2="French Madagascar"/>
+<connection t1="33 Sea Zone" t2="34a Sea Zone"/>
+<connection t1="33 Sea Zone" t2="Ethiopia"/>
+<connection t1="33 Sea Zone" t2="French Madagascar"/>
+<connection t1="33 Sea Zone" t2="Kenya"/>
+<connection t1="33 Sea Zone" t2="Mozambique"/>
+<connection t1="34a Sea Zone" t2="34b Sea Zone"/>
+<connection t1="34a Sea Zone" t2="Sudan"/>
+<connection t1="34a Sea Zone" t2="Egypt"/>
+<connection t1="34a Sea Zone" t2="Ethiopia"/>
+<connection t1="34a Sea Zone" t2="Saudi Arabia"/>
+<connection t1="34a Sea Zone" t2="Trans-Jordan"/>
+<connection t1="34b Sea Zone" t2="35a Sea Zone"/>
+<connection t1="34b Sea Zone" t2="Iraq"/>
+<connection t1="34b Sea Zone" t2="Persia"/>
+<connection t1="34b Sea Zone" t2="Saudi Arabia"/>
+<connection t1="35a Sea Zone" t2="35b Sea Zone"/>
+<connection t1="35a Sea Zone" t2="Ceylon"/>
+<connection t1="35a Sea Zone" t2="India"/>
+<connection t1="35b Sea Zone" t2="37 Sea Zone"/>
+<connection t1="35b Sea Zone" t2="Bengal"/>
+<connection t1="35b Sea Zone" t2="Ceylon"/>
+<connection t1="36 Sea Zone" t2="37 Sea Zone"/>
+<connection t1="36 Sea Zone" t2="49a Sea Zone"/>
+<connection t1="36 Sea Zone" t2="50a Sea Zone"/>
+<connection t1="36 Sea Zone" t2="61a Sea Zone"/>
+<connection t1="36 Sea Zone" t2="Indochina"/>
+<connection t1="36 Sea Zone" t2="Malaya"/>
+<connection t1="36 Sea Zone" t2="Thailand"/>
+<connection t1="37 Sea Zone" t2="49a Sea Zone"/>
+<connection t1="37 Sea Zone" t2="Burma"/>
+<connection t1="37 Sea Zone" t2="Malaya"/>
+<connection t1="37 Sea Zone" t2="Thailand"/>
+<connection t1="38a Sea Zone" t2="38b Sea Zone"/>
+<connection t1="38a Sea Zone" t2="35b Sea Zone"/>
+<connection t1="38a Sea Zone" t2="37 Sea Zone"/>
+<connection t1="38a Sea Zone" t2="49a Sea Zone"/>
+<connection t1="38a Sea Zone" t2="39b Sea Zone"/>
+<connection t1="38a Sea Zone" t2="31 Sea Zone"/>
+<connection t1="38a Sea Zone" t2="Sumatra"/>
+<connection t1="38b Sea Zone" t2="39a Sea Zone"/>
+<connection t1="38b Sea Zone" t2="39b Sea Zone"/>
+<connection t1="38b Sea Zone" t2="48b Sea Zone"/>
+<connection t1="38b Sea Zone" t2="49a Sea Zone"/>
+<connection t1="38b Sea Zone" t2="49b Sea Zone"/>
+<connection t1="38b Sea Zone" t2="Java"/>
+<connection t1="39a Sea Zone" t2="39b Sea Zone"/>
+<connection t1="39a Sea Zone" t2="40 Sea Zone"/>
+<connection t1="39a Sea Zone" t2="47 Sea Zone"/>
+<connection t1="39a Sea Zone" t2="48b Sea Zone"/>
+<connection t1="39a Sea Zone" t2="Western Australia"/>
+<connection t1="39b Sea Zone" t2="40 Sea Zone"/>
+<connection t1="40 Sea Zone" t2="41 Sea Zone"/>
+<connection t1="40 Sea Zone" t2="Eastern Australia"/>
+<connection t1="40 Sea Zone" t2="Western Australia"/>
+<connection t1="41 Sea Zone" t2="42 Sea Zone"/>
+<connection t1="41 Sea Zone" t2="47 Sea Zone"/>
+<connection t1="41 Sea Zone" t2="Eastern Australia"/>
+<connection t1="42 Sea Zone" t2="43 Sea Zone"/>
+<connection t1="42 Sea Zone" t2="45 Sea Zone"/>
+<connection t1="42 Sea Zone" t2="46 Sea Zone"/>
+<connection t1="42 Sea Zone" t2="47 Sea Zone"/>
+<connection t1="42 Sea Zone" t2="New Zealand"/>
+<connection t1="43 Sea Zone" t2="44 Sea Zone"/>
+<connection t1="43 Sea Zone" t2="45 Sea Zone"/>
+<connection t1="44 Sea Zone" t2="45 Sea Zone"/>
+<connection t1="44 Sea Zone" t2="54 Sea Zone"/>
+<connection t1="44 Sea Zone" t2="55b Sea Zone"/>
+<connection t1="45 Sea Zone" t2="46 Sea Zone"/>
+<connection t1="45 Sea Zone" t2="53 Sea Zone"/>
+<connection t1="45 Sea Zone" t2="54 Sea Zone"/>
+<connection t1="45 Sea Zone" t2="Tahiti"/>
+<connection t1="46 Sea Zone" t2="47 Sea Zone"/>
+<connection t1="46 Sea Zone" t2="48a Sea Zone"/>
+<connection t1="46 Sea Zone" t2="51 Sea Zone"/>
+<connection t1="46 Sea Zone" t2="53 Sea Zone"/>
+<connection t1="46 Sea Zone" t2="Solomon Islands"/>
+<connection t1="47 Sea Zone" t2="48a Sea Zone"/>
+<connection t1="47 Sea Zone" t2="48b Sea Zone"/>
+<connection t1="47 Sea Zone" t2="New Guinea"/>
+<connection t1="47 Sea Zone" t2="Northern Australia"/>
+<connection t1="48a Sea Zone" t2="48c Sea Zone"/>
+<connection t1="48a Sea Zone" t2="51 Sea Zone"/>
+<connection t1="48a Sea Zone" t2="New Guinea"/>
+<connection t1="48b Sea Zone" t2="48c Sea Zone"/>
+<connection t1="48b Sea Zone" t2="49b Sea Zone"/>
+<connection t1="48b Sea Zone" t2="Papua"/>
+<connection t1="48c Sea Zone" t2="49b Sea Zone"/>
+<connection t1="48c Sea Zone" t2="50a Sea Zone"/>
+<connection t1="48c Sea Zone" t2="50b Sea Zone"/>
+<connection t1="48c Sea Zone" t2="51 Sea Zone"/>
+<connection t1="48c Sea Zone" t2="Papua"/>
+<connection t1="49a Sea Zone" t2="49b Sea Zone"/>
+<connection t1="49a Sea Zone" t2="50a Sea Zone"/>
+<connection t1="49a Sea Zone" t2="Borneo"/>
+<connection t1="49b Sea Zone" t2="50a Sea Zone"/>
+<connection t1="49b Sea Zone" t2="Celebes"/>
+<connection t1="50a Sea Zone" t2="50b Sea Zone"/>
+<connection t1="50a Sea Zone" t2="61a Sea Zone"/>
+<connection t1="50a Sea Zone" t2="61b Sea Zone"/>
+<connection t1="50a Sea Zone" t2="Philippine Islands"/>
+<connection t1="50b Sea Zone" t2="51 Sea Zone"/>
+<connection t1="50b Sea Zone" t2="60 Sea Zone"/>
+<connection t1="50b Sea Zone" t2="61b Sea Zone"/>
+<connection t1="50b Sea Zone" t2="Guam"/>
+<connection t1="51 Sea Zone" t2="52 Sea Zone"/>
+<connection t1="51 Sea Zone" t2="53 Sea Zone"/>
+<connection t1="51 Sea Zone" t2="60 Sea Zone"/>
+<connection t1="52 Sea Zone" t2="53 Sea Zone"/>
+<connection t1="52 Sea Zone" t2="57a Sea Zone"/>
+<connection t1="52 Sea Zone" t2="59a Sea Zone"/>
+<connection t1="52 Sea Zone" t2="59b Sea Zone"/>
+<connection t1="52 Sea Zone" t2="60 Sea Zone"/>
+<connection t1="53 Sea Zone" t2="54 Sea Zone"/>
+<connection t1="53 Sea Zone" t2="55a Sea Zone"/>
+<connection t1="53 Sea Zone" t2="57a Sea Zone"/>
+<connection t1="53 Sea Zone" t2="Marshall Islands"/>
+<connection t1="54 Sea Zone" t2="55a Sea Zone"/>
+<connection t1="54 Sea Zone" t2="55b Sea Zone"/>
+<connection t1="55a Sea Zone" t2="55b Sea Zone"/>
+<connection t1="55a Sea Zone" t2="56a Sea Zone"/>
+<connection t1="55a Sea Zone" t2="57a Sea Zone"/>
+<connection t1="55a Sea Zone" t2="Mexico"/>
+<connection t1="55b Sea Zone" t2="Mexico"/>
+<connection t1="56a Sea Zone" t2="56b Sea Zone"/>
+<connection t1="56a Sea Zone" t2="57a Sea Zone"/>
+<connection t1="56a Sea Zone" t2="57b Sea Zone"/>
+<connection t1="56a Sea Zone" t2="Mexico"/>
+<connection t1="56a Sea Zone" t2="Western United States"/>
+<connection t1="56b Sea Zone" t2="56c Sea Zone"/>
+<connection t1="56b Sea Zone" t2="57b Sea Zone"/>
+<connection t1="56b Sea Zone" t2="64b Sea Zone"/>
+<connection t1="56b Sea Zone" t2="Western United States"/>
+<connection t1="56c Sea Zone" t2="64b Sea Zone"/>
+<connection t1="56c Sea Zone" t2="Alaska"/>
+<connection t1="56c Sea Zone" t2="Western Canada"/>
+<connection t1="56c Sea Zone" t2="Western United States"/>
+<connection t1="57a Sea Zone" t2="57b Sea Zone"/>
+<connection t1="57a Sea Zone" t2="58a Sea Zone"/>
+<connection t1="57a Sea Zone" t2="59a Sea Zone"/>
+<connection t1="57a Sea Zone" t2="Hawaiian Islands"/>
+<connection t1="57b Sea Zone" t2="58a Sea Zone"/>
+<connection t1="57b Sea Zone" t2="64a Sea Zone"/>
+<connection t1="57b Sea Zone" t2="64b Sea Zone"/>
+<connection t1="58a Sea Zone" t2="58b Sea Zone"/>
+<connection t1="58a Sea Zone" t2="59a Sea Zone"/>
+<connection t1="58a Sea Zone" t2="63b Sea Zone"/>
+<connection t1="58a Sea Zone" t2="64a Sea Zone"/>
+<connection t1="58a Sea Zone" t2="Midway"/>
+<connection t1="58b Sea Zone" t2="59a Sea Zone"/>
+<connection t1="58b Sea Zone" t2="59b Sea Zone"/>
+<connection t1="58b Sea Zone" t2="62b Sea Zone"/>
+<connection t1="58b Sea Zone" t2="63b Sea Zone"/>
+<connection t1="59a Sea Zone" t2="59b Sea Zone"/>
+<connection t1="59a Sea Zone" t2="Wake Island"/>
+<connection t1="59b Sea Zone" t2="60 Sea Zone"/>
+<connection t1="59b Sea Zone" t2="62b Sea Zone"/>
+<connection t1="60 Sea Zone" t2="61b Sea Zone"/>
+<connection t1="60 Sea Zone" t2="62b Sea Zone"/>
+<connection t1="60 Sea Zone" t2="Iwo Jima"/>
+<connection t1="61a Sea Zone" t2="61b Sea Zone"/>
+<connection t1="61a Sea Zone" t2="62a Sea Zone"/>
+<connection t1="61a Sea Zone" t2="62b Sea Zone"/>
+<connection t1="61a Sea Zone" t2="Formosa"/>
+<connection t1="61a Sea Zone" t2="Fukien"/>
+<connection t1="61a Sea Zone" t2="Kwangtung"/>
+<connection t1="61b Sea Zone" t2="62b Sea Zone"/>
+<connection t1="61b Sea Zone" t2="Okinawa"/>
+<connection t1="62a Sea Zone" t2="62b Sea Zone"/>
+<connection t1="62a Sea Zone" t2="63a Sea Zone"/>
+<connection t1="62a Sea Zone" t2="Buryatia S.S.R."/>
+<connection t1="62a Sea Zone" t2="Fukien"/>
+<connection t1="62a Sea Zone" t2="Hokkaido"/>
+<connection t1="Japan" t2="Hokkaido"/>
+
+<connection t1="62a Sea Zone" t2="Japan"/>
+<connection t1="62a Sea Zone" t2="Kiangsu"/>
+<connection t1="62a Sea Zone" t2="Korea"/>
+<connection t1="62a Sea Zone" t2="Kyushu"/>
+<connection t1="62a Sea Zone" t2="Manchuria"/>
+<connection t1="62b Sea Zone" t2="63a Sea Zone"/>
+<connection t1="62b Sea Zone" t2="63b Sea Zone"/>
+<connection t1="62b Sea Zone" t2="Hokkaido"/>
+<connection t1="62b Sea Zone" t2="Japan"/>
+<connection t1="62b Sea Zone" t2="Kyushu"/>
+<connection t1="Japan" t2="Kyushu"/>
+
+<connection t1="62b Sea Zone" t2="Sakhalin"/>
+<connection t1="62b Sea Zone" t2="Shikoku"/>
+<connection t1="Japan" t2="Shikoku"/>
+
+<connection t1="63a Sea Zone" t2="63b Sea Zone"/>
+<connection t1="63a Sea Zone" t2="Buryatia S.S.R."/>
+<connection t1="63a Sea Zone" t2="Hokkaido"/>
+<connection t1="63a Sea Zone" t2="Sakhalin"/>
+<connection t1="63a Sea Zone" t2="Soviet Far East"/>
+<connection t1="63b Sea Zone" t2="64a Sea Zone"/>
+<connection t1="63b Sea Zone" t2="65a Sea Zone"/>
+<connection t1="63b Sea Zone" t2="Soviet Far East"/>
+<connection t1="64a Sea Zone" t2="64b Sea Zone"/>
+<connection t1="64a Sea Zone" t2="65a Sea Zone"/>
+<connection t1="64b Sea Zone" t2="65a Sea Zone"/>
+<connection t1="64b Sea Zone" t2="Alaska"/>
+<connection t1="64b Sea Zone" t2="Aleutians"/>
+<connection t1="65a Sea Zone" t2="65b Sea Zone"/>
+<connection t1="65a Sea Zone" t2="Aleutians"/>
+<connection t1="65a Sea Zone" t2="Soviet Far East"/>
+<connection t1="65b Sea Zone" t2="Alaska"/>
+<connection t1="65b Sea Zone" t2="Soviet Far East"/>
+<connection t1="Afghanistan" t2="Himalaya"/>
+<connection t1="Afghanistan" t2="India"/>
+<connection t1="Afghanistan" t2="Persia"/>
+<connection t1="Afghanistan" t2="Tibet"/>
+<connection t1="Afghanistan" t2="Turkestan"/>
+<connection t1="Alaska" t2="Aleutians"/>
+<connection t1="Alaska" t2="Western Canada"/>
+<connection t1="Algeria" t2="Libya"/>
+<connection t1="Algeria" t2="Morocco"/>
+<connection t1="Algeria" t2="Sahara"/>
+<connection t1="Amur" t2="Buryatia S.S.R."/>
+<connection t1="Amur" t2="Hulunbuir"/>
+<connection t1="Amur" t2="Irkutsk"/>
+<connection t1="Amur" t2="Mongolia"/>
+<connection t1="Amur" t2="Yakut S.S.R."/>
+<connection t1="Sudan" t2="Belgian Congo"/>
+<connection t1="Sudan" t2="Egypt"/>
+<connection t1="Sudan" t2="Ethiopia"/>
+<connection t1="Sudan" t2="French Equatorial Africa"/>
+<connection t1="Sudan" t2="Sahara"/>
+<connection t1="Angola" t2="Belgian Congo"/>
+<connection t1="Angola" t2="Rhodesia"/>
+<connection t1="Angola" t2="Union of South Africa"/>
+<connection t1="Archangel" t2="Karelia S.S.R."/>
+<connection t1="Archangel" t2="Leningrad"/>
+<connection t1="Archangel" t2="Siberia"/>
+<connection t1="Archangel" t2="Volga"/>
+<connection t1="Archangel" t2="Vologda"/>
+<connection t1="Argentina Chile" t2="Brazil"/>
+<connection t1="Argentina Chile" t2="Peruvian Central"/>
+<connection t1="Armenia" t2="Caspian Sub Sea Zone"/>
+<connection t1="Armenia" t2="Caucasus"/>
+<connection t1="Armenia" t2="Persia"/>
+<connection t1="Armenia" t2="Turkey"/>
+<connection t1="Balkans" t2="Bulgaria"/>
+<connection t1="Balkans" t2="Czechoslovakia Hungary"/>
+<connection t1="Balkans" t2="Germany"/>
+<connection t1="Balkans" t2="Greece"/>
+<connection t1="Balkans" t2="Italy"/>
+<connection t1="Balkans" t2="Romania"/>
+<connection t1="Balkans" t2="Switzerland"/>
+<connection t1="Baltic States" t2="Belorussia"/>
+<connection t1="Baltic States" t2="East Poland"/>
+<connection t1="Baltic States" t2="Leningrad"/>
+<connection t1="Baltic States" t2="Poland"/>
+<connection t1="Belgian Congo" t2="Ethiopia"/>
+<connection t1="Belgian Congo" t2="French Equatorial Africa"/>
+<connection t1="Belgian Congo" t2="Kenya"/>
+<connection t1="Belgian Congo" t2="Rhodesia"/>
+<connection t1="Belorussia" t2="East Poland"/>
+<connection t1="Belorussia" t2="Eastern Ukraine"/>
+<connection t1="Belorussia" t2="Leningrad"/>
+<connection t1="Belorussia" t2="Russia"/>
+<connection t1="Belorussia" t2="Vologda"/>
+<connection t1="Bengal" t2="Burma"/>
+<connection t1="Bengal" t2="Himalaya"/>
+<connection t1="Bengal" t2="India"/>
+<connection t1="Brazil" t2="Northern South America"/>
+<connection t1="Brazil" t2="Peruvian Central"/>
+<connection t1="Bulgaria" t2="Greece"/>
+<connection t1="Bulgaria" t2="Romania"/>
+<connection t1="Bulgaria" t2="Turkey"/>
+<connection t1="Burma" t2="Himalaya"/>
+<connection t1="Burma" t2="Thailand"/>
+<connection t1="Burma" t2="Yunnan"/>
+<connection t1="Buryatia S.S.R." t2="Hulunbuir"/>
+<connection t1="Buryatia S.S.R." t2="Korea"/>
+<connection t1="Buryatia S.S.R." t2="Manchuria"/>
+<connection t1="Buryatia S.S.R." t2="Soviet Far East"/>
+<connection t1="Buryatia S.S.R." t2="Yakut S.S.R."/>
+<connection t1="Caroline Islands" t2="51 Sea Zone"/>
+<connection t1="Caspian Sub Sea Zone" t2="Caucasus"/>
+<connection t1="Caspian Sub Sea Zone" t2="Kazakh S.S.R."/>
+<connection t1="Caspian Sub Sea Zone" t2="Persia"/>
+<connection t1="Caspian Sub Sea Zone" t2="Turkestan"/>
+<connection t1="Caucasus" t2="Eastern Ukraine"/>
+<connection t1="Caucasus" t2="Kazakh S.S.R."/>
+<connection t1="Caucasus" t2="Russia"/>
+<connection t1="Caucasus" t2="Ukraine"/>
+<connection t1="Caucasus" t2="Volga"/>
+<connection t1="Central United States" t2="Mexico"/>
+<connection t1="Central United States" t2="Western Canada"/>
+<connection t1="Central United States" t2="Western United States"/>
+<connection t1="Chinghai" t2="Hubei"/>
+<connection t1="Chinghai" t2="Ningxia"/>
+<connection t1="Chinghai" t2="Suiyuan"/>
+<connection t1="Chinghai" t2="Szechuan"/>
+<connection t1="Chinghai" t2="Tibet"/>
+<connection t1="Chinghai" t2="Xinjiang"/>
+<connection t1="Czechoslovakia Hungary" t2="Germany"/>
+<connection t1="Czechoslovakia Hungary" t2="Poland"/>
+<connection t1="Czechoslovakia Hungary" t2="Romania"/>
+<connection t1="East Poland" t2="Eastern Ukraine"/>
+<connection t1="East Poland" t2="Poland"/>
+<connection t1="East Poland" t2="Romania"/>
+<connection t1="East Poland" t2="Ukraine"/>
+<connection t1="Eastern Australia" t2="Northern Australia"/>
+<connection t1="Eastern Australia" t2="Western Australia"/>
+<connection t1="Eastern Canada" t2="Eastern United States"/>
+<connection t1="Eastern Ukraine" t2="Russia"/>
+<connection t1="Eastern Ukraine" t2="Ukraine"/>
+<connection t1="Eastern United States" t2="Panama"/>
+<connection t1="Egypt" t2="Sahara"/>
+<connection t1="Egypt" t2="Trans-Jordan"/>
+<connection t1="Egypt" t2="Tobruk"/>
+<connection t1="Eire" t2="United Kingdom"/>
+<connection t1="Ethiopia" t2="Kenya"/>
+<connection t1="Evenki National Okrug" t2="Irkutsk"/>
+<connection t1="Evenki National Okrug" t2="Mongolia"/>
+<connection t1="Evenki National Okrug" t2="Novosibirsk"/>
+<connection t1="Evenki National Okrug" t2="Siberia"/>
+<connection t1="Evenki National Okrug" t2="Urals"/>
+<connection t1="Evenki National Okrug" t2="Yakut S.S.R."/>
+<connection t1="Finland" t2="Karelia S.S.R."/>
+<connection t1="Finland" t2="Leningrad"/>
+<connection t1="Finland" t2="Norway"/>
+<connection t1="Finland" t2="Sweden"/>
+<connection t1="France" t2="Germany"/>
+<connection t1="France" t2="Normandy"/>
+<connection t1="France" t2="NW Europe"/>
+<connection t1="France" t2="Switzerland"/>
+<connection t1="France" t2="Vichy"/>
+<connection t1="French Equatorial Africa" t2="Nigeria"/>
+<connection t1="French Equatorial Africa" t2="Sahara"/>
+<connection t1="French West Africa" t2="Nigeria"/>
+<connection t1="French West Africa" t2="Sahara"/>
+<connection t1="Fukien" t2="Henan"/>
+<connection t1="Fukien" t2="Hunan"/>
+<connection t1="Fukien" t2="Indochina"/>
+<connection t1="Fukien" t2="Kiangsu"/>
+<connection t1="Fukien" t2="Kwangtung"/>
+<connection t1="Germany" t2="NW Europe"/>
+<connection t1="Germany" t2="Poland"/>
+<connection t1="Germany" t2="Switzerland"/>
+<connection t1="Gibraltar" t2="Spain"/>
+<connection t1="Henan" t2="Hubei"/>
+<connection t1="Henan" t2="Hunan"/>
+<connection t1="Henan" t2="Kiangsu"/>
+<connection t1="Henan" t2="Suiyuan"/>
+<connection t1="Himalaya" t2="India"/>
+<connection t1="Himalaya" t2="Szechuan"/>
+<connection t1="Himalaya" t2="Tibet"/>
+<connection t1="Himalaya" t2="Yunnan"/>
+<connection t1="Hubei" t2="Hunan"/>
+<connection t1="Hubei" t2="Suiyuan"/>
+<connection t1="Hubei" t2="Szechuan"/>
+<connection t1="Hulunbuir" t2="Manchuria"/>
+<connection t1="Hulunbuir" t2="Mongolia"/>
+<connection t1="Hunan" t2="Indochina"/>
+<connection t1="Hunan" t2="Szechuan"/>
+<connection t1="Hunan" t2="Thailand"/>
+<connection t1="Hunan" t2="Yunnan"/>
+<connection t1="India" t2="Persia"/>
+<connection t1="Indochina" t2="Kwangtung"/>
+<connection t1="Indochina" t2="Thailand"/>
+<connection t1="Iraq" t2="Persia"/>
+<connection t1="Iraq" t2="Saudi Arabia"/>
+<connection t1="Iraq" t2="Syria"/>
+<connection t1="Iraq" t2="Trans-Jordan"/>
+<connection t1="Iraq" t2="Turkey"/>
+<connection t1="Irkutsk" t2="Mongolia"/>
+<connection t1="Irkutsk" t2="Yakut S.S.R."/>
+<connection t1="Italy" t2="Naples"/>
+<connection t1="Sicily" t2="Naples"/>
+<connection t1="Italy" t2="Switzerland"/>
+<connection t1="Italy" t2="Vichy"/>
+<connection t1="Karelia S.S.R." t2="Leningrad"/>
+<connection t1="Kazakh S.S.R." t2="Novosibirsk"/>
+<connection t1="Kazakh S.S.R." t2="Turkestan"/>
+<connection t1="Kazakh S.S.R." t2="Urals"/>
+<connection t1="Kazakh S.S.R." t2="Volga"/>
+<connection t1="Kazakh S.S.R." t2="Xinjiang"/>
+<connection t1="Kenya" t2="Mozambique"/>
+<connection t1="Kenya" t2="Rhodesia"/>
+<connection t1="Kiangsu" t2="Manchuria"/>
+<connection t1="Kiangsu" t2="Suiyuan"/>
+<connection t1="Korea" t2="Manchuria"/>
+<connection t1="Leningrad" t2="Vologda"/>
+<connection t1="Libya" t2="Sahara"/>
+<connection t1="Libya" t2="Tobruk"/>
+<connection t1="Malaya" t2="Thailand"/>
+<connection t1="Manchuria" t2="Mongolia"/>
+<connection t1="Manchuria" t2="Suiyuan"/>
+<connection t1="Mexico" t2="Western United States"/>
+<connection t1="Mongolia" t2="Ningxia"/>
+<connection t1="Mongolia" t2="Novosibirsk"/>
+<connection t1="Mongolia" t2="Suiyuan"/>
+<connection t1="Mongolia" t2="Xinjiang"/>
+<connection t1="Morocco" t2="Sahara"/>
+<connection t1="Mozambique" t2="Rhodesia"/>
+<connection t1="Mozambique" t2="Union of South Africa"/>
+<connection t1="New Guinea" t2="Papua"/>
+<connection t1="Nigeria" t2="Sahara"/>
+<connection t1="Ningxia" t2="Suiyuan"/>
+<connection t1="Ningxia" t2="Xinjiang"/>
+<connection t1="Normandy" t2="NW Europe"/>
+<connection t1="Normandy" t2="Spain"/>
+<connection t1="Normandy" t2="Vichy"/>
+<connection t1="Northern Australia" t2="39a Sea Zone"/>
+<connection t1="Northern Australia" t2="Western Australia"/>
+<connection t1="Northern South America" t2="Peruvian Central"/>
+<connection t1="Norway" t2="Sweden"/>
+<connection t1="Novosibirsk" t2="Urals"/>
+<connection t1="Novosibirsk" t2="Xinjiang"/>
+<connection t1="Persia" t2="Turkestan"/>
+<connection t1="Persia" t2="Turkey"/>
+<connection t1="Poland" t2="Romania"/>
+<connection t1="Rhodesia" t2="Union of South Africa"/>
+<connection t1="Romania" t2="Ukraine"/>
+<connection t1="Russia" t2="Volga"/>
+<connection t1="Russia" t2="Vologda"/>
+<connection t1="Sahara" t2="Tobruk"/>
+<connection t1="Saudi Arabia" t2="Trans-Jordan"/>
+<connection t1="Siberia" t2="Urals"/>
+<connection t1="Siberia" t2="Volga"/>
+<connection t1="Siberia" t2="Yakut S.S.R."/>
+<connection t1="Soviet Far East" t2="Yakut S.S.R."/>
+<connection t1="Spain" t2="Vichy"/>
+<connection t1="Switzerland" t2="Vichy"/>
+<connection t1="Syria" t2="Trans-Jordan"/>
+<connection t1="Syria" t2="Turkey"/>
+<connection t1="Szechuan" t2="Tibet"/>
+<connection t1="Szechuan" t2="Yunnan"/>
+<connection t1="Thailand" t2="Yunnan"/>
+<connection t1="Tibet" t2="Turkestan"/>
+<connection t1="Tibet" t2="Xinjiang"/>
+<connection t1="Turkestan" t2="Xinjiang"/>
+<connection t1="Urals" t2="Volga"/>
+<connection t1="Volga" t2="Vologda"/>
+<connection t1="Western Canada" t2="Western United States"/>
+<connection t1="Crete" t2="Greece"/>
+<connection t1="Crete" t2="14c Sea Zone"/>
+<connection t1="Crete" t2="15 Sea Zone"/>
+
+
+
+
+
+  </map>
+  <resourceList>
+    <resource name="PUs"/>
+    <resource name="techTokens"/>
+  </resourceList>
+  <playerList>
+    <!-- Player Turn Order -->
+
+    <player name="Germans" optional="false"/>
+    <player name="Russians" optional="false"/>
+    <player name="Japanese" optional="false"/>
+    <player name="British" optional="false"/>
+    <player name="French" optional="false"/>	
+    <player name="Italians" optional="false"/>
+    <player name="Americans" optional="false"/>
+    <player name="Chinese" optional="false"/>
+
+    <!-- Axis Alliance -->
+    <alliance player="Italians" alliance="Axis"/>
+    <alliance player="Germans" alliance="Axis"/>
+    <alliance player="Japanese" alliance="Axis"/>
+    <!-- Allied Alliance -->
+    <alliance player="Russians" alliance="Allies"/>
+    <alliance player="British" alliance="Allies"/>
+    <alliance player="Chinese" alliance="Allies"/>
+    <alliance player="Americans" alliance="Allies"/>
+    <alliance player="French" alliance="Allies"/>	
+  </playerList>
+  <unitList>
+    <unit name="infantry"/>
+    <unit name="artillery"/>
+    <unit name="armour"/>
+    <unit name="fighter"/>
+    <unit name="bomber"/>
+    <unit name="transport"/>
+    <unit name="submarine"/>
+    <unit name="destroyer"/>
+    <unit name="cruiser"/>
+    <unit name="carrier"/>
+    <unit name="battleship"/>
+    <unit name="aaGun"/>
+    <unit name="factory"/>
+	<unit name="bunker"/> 
+    <unit name="barracks"/>
+    <unit name="factory_upgrade"/>
+    <unit name="flyingTiger"/>
+	
+  </unitList>
+  <gamePlay>
+    <delegate name="initDelegate" javaClass="games.strategy.triplea.delegate.InitializationDelegate" display="Initializing Delegates"/>
+    <delegate name="tech" javaClass="games.strategy.triplea.delegate.TechnologyDelegate" display="Research Technology"/>
+    <delegate name="tech_activation" javaClass="games.strategy.triplea.delegate.TechActivationDelegate" display="Activate Technology"/>
+    <delegate name="battle" javaClass="games.strategy.triplea.delegate.BattleDelegate" display="Combat"/>
+    <delegate name="move" javaClass="games.strategy.triplea.delegate.MoveDelegate" display="Combat Move"/>
+    <delegate name="place" javaClass="games.strategy.triplea.delegate.PlaceDelegate" display="Place Units"/>
+    <delegate name="purchase" javaClass="games.strategy.triplea.delegate.PurchaseDelegate" display="Purchase Units"/>
+    <delegate name="purchaseNoPU" javaClass="games.strategy.triplea.delegate.NoPUPurchaseDelegate" display="Purchase Units"/>
+    <delegate name="endTurn" javaClass="games.strategy.triplea.delegate.EndTurnDelegate" display="Turn Complete"/>
+    <delegate name="endTurnNoPU" javaClass="games.strategy.triplea.delegate.NoPUEndTurnDelegate" display="Turn Complete"/>
+    <delegate name="endRound" javaClass="games.strategy.triplea.delegate.EndRoundDelegate" display="Round Complete"/>
+    <delegate name="placeBid" javaClass="games.strategy.triplea.delegate.BidPlaceDelegate" display="Bid Placement"/>
+    <delegate name="bid" javaClass="games.strategy.triplea.delegate.BidPurchaseDelegate" display="Bid Purchase"/>
+    <sequence>
+      <step name="gameInitDelegate" delegate="initDelegate" maxRunCount="1"/>
+      <!-- Bidding Phase -->
+      <step name="germanBid" delegate="bid" player="Germans" maxRunCount="1"/>
+      <step name="germanBidPlace" delegate="placeBid" player="Germans" maxRunCount="1"/>
+      <step name="russianBid" delegate="bid" player="Russians" maxRunCount="1"/>
+      <step name="russianBidPlace" delegate="placeBid" player="Russians" maxRunCount="1"/>
+      <step name="japaneseBid" delegate="bid" player="Japanese" maxRunCount="1"/>
+      <step name="japaneseBidPlace" delegate="placeBid" player="Japanese" maxRunCount="1"/>
+      <step name="britishBid" delegate="bid" player="British" maxRunCount="1"/>
+      <step name="britishBidPlace" delegate="placeBid" player="British" maxRunCount="1"/>
+      <step name="italiansBid" delegate="bid" player="Italians" maxRunCount="1"/>
+      <step name="italiansBidPlace" delegate="placeBid" player="Italians" maxRunCount="1"/>
+      <step name="chineseBid" delegate="bid" player="Chinese" maxRunCount="1"/>
+      <step name="chineseBidPlace" delegate="placeBid" player="Chinese" maxRunCount="1"/>
+      <step name="americanBid" delegate="bid" player="Americans" maxRunCount="1"/>
+      <step name="americanBidPlace" delegate="placeBid" player="Americans" maxRunCount="1"/>
+      <!-- Germans Game Sequence -->
+      <step name="germanTech" delegate="tech" player="Germans"/>
+      <step name="germanTechActivation" delegate="tech_activation" player="Germans"/>
+      <step name="germanPurchase" delegate="purchase" player="Germans"/>
+      <step name="germanCombatMove" delegate="move" player="Germans"/>
+      <step name="germanBattle" delegate="battle" player="Germans"/>
+      <step name="germanNonCombatMove" delegate="move" player="Germans" display="Non Combat Move"/>
+      <step name="germanPlace" delegate="place" player="Germans"/>
+      <step name="germanEndTurn" delegate="endTurn" player="Germans"/>
+      <!-- Russians Game Sequence -->
+      <step name="russianTech" delegate="tech" player="Russians"/>
+      <step name="russianTechActivation" delegate="tech_activation" player="Russians"/>
+      <step name="russianPurchase" delegate="purchase" player="Russians"/>
+      <step name="russianCombatMove" delegate="move" player="Russians"/>
+      <step name="russianBattle" delegate="battle" player="Russians"/>
+      <step name="russianNonCombatMove" delegate="move" player="Russians" display="Non Combat Move"/>
+      <step name="russianPlace" delegate="place" player="Russians"/>
+      <step name="russianEndTurn" delegate="endTurn" player="Russians"/>
+      <!-- Japanese Game Sequence -->
+      <step name="japaneseTech" delegate="tech" player="Japanese"/>
+      <step name="japaneseTechActivation" delegate="tech_activation" player="Japanese"/>
+      <step name="japanesePurchase" delegate="purchase" player="Japanese"/>
+      <step name="japaneseCombatMove" delegate="move" player="Japanese"/>
+      <step name="japaneseBattle" delegate="battle" player="Japanese"/>
+      <step name="japaneseNonCombatMove" delegate="move" player="Japanese" display="Non Combat Move"/>
+      <step name="japanesePlace" delegate="place" player="Japanese"/>
+      <step name="japaneseEndTurn" delegate="endTurn" player="Japanese"/>
+      <!-- British Game Sequence -->
+      <step name="britishTech" delegate="tech" player="British"/>
+      <step name="britishTechActivation" delegate="tech_activation" player="British"/>
+      <step name="britishPurchase" delegate="purchase" player="British"/>
+      <step name="britishCombatMove" delegate="move" player="British"/>
+      <step name="britishBattle" delegate="battle" player="British"/>
+      <step name="britishNonCombatMove" delegate="move" player="British" display="Non Combat Move"/>
+      <step name="britishPlace" delegate="place" player="British"/>
+      <step name="britishEndTurn" delegate="endTurn" player="British"/>
+      <!-- French Game Sequence -->
+      <step name="frenchTech" delegate="tech" player="French"/>
+      <step name="frenchTechActivation" delegate="tech_activation" player="French"/>
+      <step name="frenchPurchase" delegate="purchase" player="French"/>
+      <step name="frenchCombatMove" delegate="move" player="French"/>
+      <step name="frenchBattle" delegate="battle" player="French"/>
+      <step name="frenchNonCombatMove" delegate="move" player="French" display="Non Combat Move"/>
+      <step name="frenchPlace" delegate="place" player="French"/>
+      <step name="frenchEndTurn" delegate="endTurn" player="French"/>	  
+      <!-- Italians Game Sequence -->
+      <step name="italianTech" delegate="tech" player="Italians"/>
+      <step name="italianTechActivation" delegate="tech_activation" player="Italians"/>
+      <step name="italianPurchase" delegate="purchase" player="Italians"/>
+      <step name="italianCombatMove" delegate="move" player="Italians"/>
+      <step name="italianBattle" delegate="battle" player="Italians"/>
+      <step name="italianNonCombatMove" delegate="move" player="Italians" display="Non Combat Move"/>
+      <step name="italianPlace" delegate="place" player="Italians"/>
+      <step name="italianEndTurn" delegate="endTurn" player="Italians"/>
+      <!-- Chinese/Americans Game Sequence -->
+      <step name="americanTech" delegate="tech" player="Americans"/>
+      <step name="americanTechActivation" delegate="tech_activation" player="Americans"/>
+      <step name="americanPurchase" delegate="purchase" player="Americans"/>
+      <step name="chinesePurchase" delegate="purchaseNoPU" player="Chinese"/>
+      <step name="americanCombatMove" delegate="move" player="Americans"/>
+      <step name="americanBattle" delegate="battle" player="Americans"/>
+      <step name="americanNonCombatMove" delegate="move" player="Americans" display="Non Combat Move"/>
+      <step name="chineseCombatMove" delegate="move" player="Chinese"/>
+      <step name="chineseBattle" delegate="battle" player="Chinese"/>
+      <step name="chineseNonCombatMove" delegate="move" player="Chinese" display="Non Combat Move"/>
+      <step name="americanPlace" delegate="place" player="Americans"/>
+      <step name="chinesePlace" delegate="place" player="Chinese"/>
+      <step name="chineseEndTurn" delegate="endTurnNoPU" player="Chinese">
+        <stepProperty name="skipPosting" value="true"/>
+      </step>
+      <step name="americanEndTurn" delegate="endTurn" player="Americans">
+        <stepProperty name="turnSummaryPlayers" value="Americans:Chinese"/>
+      </step>
+      <!-- End Round -->
+      <step name="endRoundStep" delegate="endRound"/>
+    </sequence>
+  </gamePlay>
+  <production>
+    <!-- Unit Production Cost -->
+    <productionRule name="buyInfantry">
+      <cost resource="PUs" quantity="3"/>
+      <result resourceOrUnit="infantry" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyArtillery">
+      <cost resource="PUs" quantity="4"/>
+      <result resourceOrUnit="artillery" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyArmour">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="armour" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyFighter">
+      <cost resource="PUs" quantity="10"/>
+      <result resourceOrUnit="fighter" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyBomber">
+      <cost resource="PUs" quantity="12"/>
+      <result resourceOrUnit="bomber" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyTransport">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="transport" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyCarrier">
+      <cost resource="PUs" quantity="12"/>
+      <result resourceOrUnit="carrier" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyDestroyer">
+      <cost resource="PUs" quantity="7"/>
+      <result resourceOrUnit="destroyer" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyCruiser">
+      <cost resource="PUs" quantity="9"/>
+      <result resourceOrUnit="cruiser" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyBattleship">
+      <cost resource="PUs" quantity="16"/>
+      <result resourceOrUnit="battleship" quantity="1"/>
+    </productionRule>
+    <productionRule name="buySubmarine">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="submarine" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyFactory">
+      <cost resource="PUs" quantity="15"/>
+      <result resourceOrUnit="factory" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyAAGun">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="aaGun" quantity="1"/>
+     </productionRule>
+ 
+	 
+		<productionRule name="buyBarracks">
+            <cost resource="PUs" quantity="8"/>
+            <result resourceOrUnit="barracks" quantity="1"/>
+        </productionRule>
+        
+		<productionRule name="buyBunker">
+            <cost resource="PUs" quantity="9"/>
+            <result resourceOrUnit="bunker" quantity="1"/>
+        </productionRule>
+
+    <productionRule name="buyFactory_Upgrade">
+      <cost resource="PUs" quantity="10"/>
+      <result resourceOrUnit="factory_upgrade" quantity="1"/>
+	  <consumesUnits value="1:barracks"/>
+	  
+    </productionRule>		
+    <!-- Advanced Industrial Production 
+                
+                <productionRule name="buyInfantryIndustrialTechnology">
+                        <cost resource="PUs" quantity="3" />
+                        <result resourceOrUnit="infantry" quantity="1"/>
+                </productionRule>
+                
+                <productionRule name="buyArtilleryIndustrialTechnology">
+                        <cost resource="PUs" quantity="4" />
+                        <result resourceOrUnit="artillery" quantity="1"/>
+                </productionRule>
+                
+                <productionRule name="buyArmourIndustrialTechnology">
+                        <cost resource="PUs" quantity="5" />
+                        <result resourceOrUnit="armour" quantity="1"/>
+                </productionRule>
+                
+                <productionRule name="buyFighterIndustrialTechnology">
+                        <cost resource="PUs" quantity="9" />
+                        <result resourceOrUnit="fighter" quantity="1"/>
+                </productionRule>
+                
+                <productionRule name="buyBomberIndustrialTechnology">
+                        <cost resource="PUs" quantity="11" />
+                        <result resourceOrUnit="bomber" quantity="1"/>
+                </productionRule>
+                
+                <productionRule name="buyTransportIndustrialTechnology">
+                        <cost resource="PUs" quantity="6" />
+                        <result resourceOrUnit="transport" quantity="1"/>
+                </productionRule>
+                
+                <productionRule name="buyCarrierIndustrialTechnology">
+                        <cost resource="PUs" quantity="11" />
+                        <result resourceOrUnit="carrier" quantity="1"/>
+                </productionRule>
+                
+                <productionRule name="buyDestroyerIndustrialTechnology">
+                        <cost resource="PUs" quantity="7" />
+                        <result resourceOrUnit="destroyer" quantity="1"/>
+                </productionRule>
+				
+				<productionRule name="buyCruiserIndustrialTechnology">
+                        <cost resource="PUs" quantity="10" />
+                        <result resourceOrUnit="cruiser" quantity="1"/>
+                </productionRule>
+                
+                <productionRule name="buyBattleshipIndustrialTechnology">
+                        <cost resource="PUs" quantity="17" />
+                        <result resourceOrUnit="battleship" quantity="1"/>
+                </productionRule>
+                
+                <productionRule name="buySubmarineIndustrialTechnology">
+                        <cost resource="PUs" quantity="5" />
+                        <result resourceOrUnit="submarine" quantity="1"/>
+                </productionRule>
+                
+                <productionRule name="buyFactoryIndustrialTechnology">
+                        <cost resource="PUs" quantity="12" />
+                        <result resourceOrUnit="factory" quantity="1"/>
+                </productionRule>
+                
+                <productionRule name="buyAAGunIndustrialTechnology">
+                        <cost resource="PUs" quantity="5" />
+                        <result resourceOrUnit="aaGun" quantity="1"/>
+                </productionRule>
+                -->
+    <!-- SHIPYARD PRICES -->
+    <productionRule name="buyTransportShipyards">
+      <cost resource="PUs" quantity="6"/>
+      <result resourceOrUnit="transport" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyCarrierShipyards">
+      <cost resource="PUs" quantity="11"/>
+      <result resourceOrUnit="carrier" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyDestroyerShipyards">
+      <cost resource="PUs" quantity="7"/>
+      <result resourceOrUnit="destroyer" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyCruiserShipyards">
+      <cost resource="PUs" quantity="10"/>
+      <result resourceOrUnit="cruiser" quantity="1"/>
+    </productionRule>
+    <productionRule name="buyBattleshipShipyards">
+      <cost resource="PUs" quantity="17"/>
+      <result resourceOrUnit="battleship" quantity="1"/>
+    </productionRule>
+    <productionRule name="buySubmarineShipyards">
+      <cost resource="PUs" quantity="5"/>
+      <result resourceOrUnit="submarine" quantity="1"/>
+    </productionRule>
+    <!-- Repair rules -->
+    <repairRule name="repairFactory">
+      <cost resource="PUs" quantity="1"/>
+      <result resourceOrUnit="factory" quantity="1"/>
+    </repairRule>
+    <repairRule name="repairBarracks">
+      <cost resource="PUs" quantity="1"/>
+      <result resourceOrUnit="barracks" quantity="1"/>
+    </repairRule>	
+    <repairRule name="repairFactoryIndustrialTechnology">
+      <cost resource="PUs" quantity="1"/>
+      <result resourceOrUnit="factory" quantity="2"/>
+    </repairRule>
+    <repairRule name="repairFactory_Upgrade">
+      <cost resource="PUs" quantity="1"/>
+      <result resourceOrUnit="factory_upgrade" quantity="1"/>
+    </repairRule>	
+    <repairFrontier name="repair">
+      <repairRules name="repairFactory"/>
+	  <repairRules name="repairBarracks"/>
+      <repairRules name="repairFactory_Upgrade"/>
+	</repairFrontier>
+    <repairFrontier name="repairIndustrialTechnology">
+      <repairRules name="repairFactoryIndustrialTechnology"/>
+    </repairFrontier>
+    <productionFrontier name="production">
+      <frontierRules name="buyInfantry"/>
+      <frontierRules name="buyArtillery"/>
+      <frontierRules name="buyArmour"/>
+      <frontierRules name="buyFighter"/>
+      <frontierRules name="buyBomber"/>
+      <frontierRules name="buyTransport"/>
+      <frontierRules name="buySubmarine"/>
+      <frontierRules name="buyDestroyer"/>
+      <frontierRules name="buyCruiser"/>
+      <frontierRules name="buyCarrier"/>
+      <frontierRules name="buyBattleship"/>
+      <frontierRules name="buyAAGun"/>
+      <frontierRules name="buyFactory"/>
+      <frontierRules name="buyBarracks"/>
+      <frontierRules name="buyFactory_Upgrade"/>
+	  
+    </productionFrontier>
+    <!--
+                <productionFrontier name="productionIndustrialTechnology">
+                        <frontierRules name="buyInfantryIndustrialTechnology"/>
+                        <frontierRules name="buyArtilleryIndustrialTechnology"/>
+                        <frontierRules name="buyArmourIndustrialTechnology"/>
+                        <frontierRules name="buyFighterIndustrialTechnology"/>
+                        <frontierRules name="buyBomberIndustrialTechnology"/>
+                        <frontierRules name="buyTransportIndustrialTechnology"/>
+                        <frontierRules name="buySubmarineIndustrialTechnology"/>
+                        <frontierRules name="buyDestroyerIndustrialTechnology"/>
+						<frontierRules name="buyCruiserIndustrialTechnology"/>
+                        <frontierRules name="buyCarrierIndustrialTechnology"/>
+                        <frontierRules name="buyBattleshipIndustrialTechnology"/>
+                        <frontierRules name="buyAAGunIndustrialTechnology"/>
+                        <frontierRules name="buyFactoryIndustrialTechnology"/>        
+                </productionFrontier>
+				-->
+    <productionFrontier name="productionShipyards">
+      <frontierRules name="buyTransportShipyards"/>
+      <frontierRules name="buySubmarineShipyards"/>
+      <frontierRules name="buyDestroyerShipyards"/>
+      <frontierRules name="buyCruiserShipyards"/>
+      <frontierRules name="buyCarrierShipyards"/>
+      <frontierRules name="buyBattleshipShipyards"/>
+    </productionFrontier>
+    <playerProduction player="Germans" frontier="production"/>
+    <playerProduction player="Russians" frontier="production"/>
+    <playerProduction player="Japanese" frontier="production"/>
+    <playerProduction player="British" frontier="production"/>
+    <playerProduction player="Italians" frontier="production"/>
+    <playerProduction player="Chinese" frontier="production"/>
+    <playerProduction player="Americans" frontier="production"/>
+    <playerProduction player="French" frontier="production"/>
+	
+    <playerRepair player="Germans" frontier="repair"/>
+    <playerRepair player="Russians" frontier="repair"/>
+    <playerRepair player="Japanese" frontier="repair"/>
+    <playerRepair player="British" frontier="repair"/>
+    <playerRepair player="Italians" frontier="repair"/>
+    <playerRepair player="Chinese" frontier="repair"/>
+    <playerRepair player="Americans" frontier="repair"/>
+    <playerRepair player="French" frontier="repair"/>
+	
+  </production>
+  <attachmentList>
+    <!-- Germans -->
+    <attachment name="techAttachment" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
+      <option name="superSub" value="false"/>
+      <option name="jetPower" value="false"/>
+      <option name="shipyards" value="false"/>
+      <option name="aARadar" value="false"/>
+      <option name="longRangeAir" value="false"/>
+      <option name="heavyBomber" value="false"/>
+      <option name="improvedArtillerySupport" value="false"/>
+      <option name="rocket" value="false"/>
+      <option name="paratroopers" value="false"/>
+      <option name="increasedFactoryProduction" value="false"/>
+      <option name="warBonds" value="false"/>
+      <option name="mechanizedInfantry" value="false"/>
+    </attachment>
+    <!-- Russians -->
+    <attachment name="techAttachment" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
+      <option name="superSub" value="false"/>
+      <option name="jetPower" value="false"/>
+      <option name="shipyards" value="false"/>
+      <option name="aARadar" value="false"/>
+      <option name="longRangeAir" value="false"/>
+      <option name="heavyBomber" value="false"/>
+      <option name="improvedArtillerySupport" value="false"/>
+      <option name="rocket" value="false"/>
+      <option name="paratroopers" value="false"/>
+      <option name="increasedFactoryProduction" value="false"/>
+      <option name="warBonds" value="false"/>
+      <option name="mechanizedInfantry" value="false"/>
+    </attachment>
+    <!-- Japanese -->
+    <attachment name="techAttachment" attachTo="Japanese" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
+      <option name="superSub" value="false"/>
+      <option name="jetPower" value="false"/>
+      <option name="shipyards" value="false"/>
+      <option name="aARadar" value="false"/>
+      <option name="longRangeAir" value="false"/>
+      <option name="heavyBomber" value="false"/>
+      <option name="improvedArtillerySupport" value="false"/>
+      <option name="rocket" value="false"/>
+      <option name="paratroopers" value="false"/>
+      <option name="increasedFactoryProduction" value="false"/>
+      <option name="warBonds" value="false"/>
+      <option name="mechanizedInfantry" value="false"/>
+    </attachment>
+    <!-- British -->
+    <attachment name="techAttachment" attachTo="British" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
+      <option name="superSub" value="false"/>
+      <option name="jetPower" value="false"/>
+      <option name="shipyards" value="false"/>
+      <option name="aARadar" value="false"/>
+      <option name="longRangeAir" value="false"/>
+      <option name="heavyBomber" value="false"/>
+      <option name="improvedArtillerySupport" value="false"/>
+      <option name="rocket" value="false"/>
+      <option name="paratroopers" value="false"/>
+      <option name="increasedFactoryProduction" value="false"/>
+      <option name="warBonds" value="false"/>
+      <option name="mechanizedInfantry" value="false"/>
+    </attachment>
+    <!-- French -->
+    <attachment name="techAttachment" attachTo="French" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
+      <option name="superSub" value="false"/>
+      <option name="jetPower" value="false"/>
+      <option name="shipyards" value="false"/>
+      <option name="aARadar" value="false"/>
+      <option name="longRangeAir" value="false"/>
+      <option name="heavyBomber" value="false"/>
+      <option name="improvedArtillerySupport" value="false"/>
+      <option name="rocket" value="false"/>
+      <option name="paratroopers" value="false"/>
+      <option name="increasedFactoryProduction" value="false"/>
+      <option name="warBonds" value="false"/>
+      <option name="mechanizedInfantry" value="false"/>
+    </attachment>	
+    <!-- Italians -->
+    <attachment name="techAttachment" attachTo="Italians" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
+      <option name="superSub" value="false"/>
+      <option name="jetPower" value="false"/>
+      <option name="shipyards" value="false"/>
+      <option name="aARadar" value="false"/>
+      <option name="longRangeAir" value="false"/>
+      <option name="heavyBomber" value="false"/>
+      <option name="improvedArtillerySupport" value="false"/>
+      <option name="rocket" value="false"/>
+      <option name="paratroopers" value="false"/>
+      <option name="increasedFactoryProduction" value="false"/>
+      <option name="warBonds" value="false"/>
+      <option name="mechanizedInfantry" value="false"/>
+    </attachment>
+    <!-- Americans -->
+    <attachment name="techAttachment" attachTo="Americans" javaClass="games.strategy.triplea.attachments.TechAttachment" type="player">
+      <option name="superSub" value="false"/>
+      <option name="jetPower" value="false"/>
+      <option name="shipyards" value="false"/>
+      <option name="aARadar" value="false"/>
+      <option name="longRangeAir" value="false"/>
+      <option name="heavyBomber" value="false"/>
+      <option name="improvedArtillerySupport" value="false"/>
+      <option name="rocket" value="false"/>
+      <option name="paratroopers" value="false"/>
+      <option name="increasedFactoryProduction" value="false"/>
+      <option name="warBonds" value="false"/>
+      <option name="mechanizedInfantry" value="false"/>
+    </attachment>
+    <!-- Infantry -->
+    <attachment name="unitAttachment" attachTo="infantry" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="transportCost" value="2"/>
+      <option name="isInfantry" value="true"/>
+      <option name="isAirTransportable" value="true"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="2"/>
+      <option name="artillerySupportable" value="true"/>
+    </attachment>
+    <!-- Artillery -->
+    <attachment name="unitAttachment" attachTo="artillery" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="1"/>
+      <option name="transportCost" value="3"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="2"/>
+      <option name="artillery" value="true"/>
+    </attachment>
+    <!-- Armour -->
+    <attachment name="unitAttachment" attachTo="armour" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="transportCost" value="3"/>
+      <option name="canBlitz" value="true"/>
+      <option name="isLandTransport" value="true"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="3"/>
+			<option name="requiresUnits" value="factory"/>
+			<option name="requiresUnits" value="factory_upgrade"/>    
+	</attachment>
+    <!-- Fighter -->
+    <attachment name="unitAttachment" attachTo="fighter" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="4"/>
+      <option name="carrierCost" value="1"/>
+      <option name="isAir" value="true"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="4"/>
+      <option name="canIntercept" value="true"/>
+      <option name="canEscort" value="true"/>
+      <option name="airDefense" value="1"/>
+      <option name="airAttack" value="1"/>
+			<option name="requiresUnits" value="factory"/>
+			<option name="requiresUnits" value="factory_upgrade"/>    
+	</attachment>
+	
+    <attachment name="unitAttachment" attachTo="flyingTiger" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="4"/>
+      <option name="carrierCost" value="1"/>
+      <option name="isAir" value="true"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="4"/>
+      <option name="canIntercept" value="true"/>
+      <option name="canEscort" value="true"/>
+      <option name="airDefense" value="1"/>
+      <option name="airAttack" value="1"/>
+	  <option name='maxBuiltPerPlayer' value='2'/>
+	</attachment>	
+    <!-- Bomber -->
+    <attachment name="unitAttachment" attachTo="bomber" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="6"/>
+      <option name="isAir" value="true"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="1"/>
+      <option name="isStrategicBomber" value="true"/>
+      <option name="transportCapacity" value="2"/>
+      <option name="isAirTransport" value="true"/>
+      <option name="airAttack" value="1"/>
+			<option name="requiresUnits" value="factory"/>
+			<option name="requiresUnits" value="factory_upgrade"/>	  
+    </attachment>
+    <!-- Transport -->
+    <attachment name="unitAttachment" attachTo="transport" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="transportCapacity" value="5"/>
+      <option name="attack" value="0"/>
+      <option name="defense" value="0"/>
+    </attachment>
+    <!-- Battle Ship -->
+    <attachment name="unitAttachment" attachTo="battleship" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="attack" value="4"/>
+      <option name="defense" value="4"/>
+      <option name="canBombard" value="true"/>
+      <option name="hitPoints" value="2"/>
+			<option name="requiresUnits" value="factory"/>
+			<option name="requiresUnits" value="factory_upgrade"/>	  
+    </attachment>
+    <!-- Cruiser -->
+    <attachment name="unitAttachment" attachTo="cruiser" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="attack" value="3"/>
+      <option name="defense" value="3"/>
+      <option name="canBombard" value="true"/>
+      <option name="hitPoints" value="1"/>
+    </attachment>
+    <!-- Destroyer -->
+    <attachment name="unitAttachment" attachTo="destroyer" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="movement" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="2"/>
+      <option name="isDestroyer" value="true"/>
+    </attachment>
+    <!-- Carrier -->
+    <attachment name="unitAttachment" attachTo="carrier" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="carrierCapacity" value="2"/>
+      <option name="movement" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="attack" value="1"/>
+      <option name="defense" value="2"/>
+			<option name="requiresUnits" value="factory"/>
+			<option name="requiresUnits" value="factory_upgrade"/>
+	  
+    </attachment>
+    <!-- Submarine -->
+    <attachment name="unitAttachment" attachTo="submarine" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="isSub" value="true"/>
+      <option name="movement" value="2"/>
+      <option name="isSea" value="true"/>
+      <option name="attack" value="2"/>
+      <option name="defense" value="1"/>
+    </attachment>
+    <!-- Factory -->
+    <attachment name="unitAttachment" attachTo="factory" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="isFactory" value="true"/>
+      <option name='canOnlyBePlacedInTerritoryValuedAtX' value='3'/>
+	  <option name="constructionType" value="factory"/>
+	  <option name="maxConstructionsPerTypePerTerr" value="2"/> 
+	  <option name="constructionsPerTerrPerTypePerTurn" value="1"/> 
+	  			<option name='unitPlacementOnlyAllowedIn' value='Eastern Canada:Central United States:Mexico:Brazil:Union of South Africa:Balkans:Italy:France:NW Europe:Germany:Czechoslovakia Hungary:Poland:Romania:Ukraine:Norway:Finland:Leningrad:Russia:Volga:Urals:Caucasus:India:Borneo:Eastern Australia:Hawaiian Islands:Kyushu:Manchuria:Japan'/>	  
+	</attachment>
+  
+	  
+    <!-- Bunker -->
+    
+		<attachment name="unitAttachment" attachTo="bunker" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+            <option name="movement" value="0"/>
+            <option name="attack" value="0"/>
+            <option name="defense" value="4"/>
+			<option name="hitPoints" value="2"/>
+        </attachment>
+        
+	<!-- Barracks -->
+    	
+		<attachment name="unitAttachment" attachTo="barracks" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+			<option name="isFactory" value="true"/>
+			<option name="isInfrastructure" value="true"/>
+			<option name='canProduceXUnits' value='2'/>
+			<option name='maxDamage' value='2'/>
+			<option name='canOnlyBePlacedInTerritoryValuedAtX' value='2'/>
+			<option name="constructionType" value="factory"/>
+			<option name="maxConstructionsPerTypePerTerr" value="2"/> <!-- This will allow 2 of the same type to occupy the territory at once -->
+			<!-- This will allow the upgrade unit to be placed -->
+			<option name="constructionsPerTerrPerTypePerTurn" value="1"/> <!-- Only 1 per turn, will prevent a upgrade and other to be placed during the same turn -->			
+			<option name='unitPlacementOnlyAllowedIn' value='Alaska:Western Canada:Cuba:Argentina Chile:Karelia S.S.R.:Baltic States:Normandy:Vichy:Algeria:Naples:Greece:Egypt:Persia:Ethiopia:French Equatorial Africa:Armenia:Eastern Ukraine:Kazakh S.S.R.:Irkutsk:Buryatia S.S.R.:Hokkaido:Korea:Kiangsu:Szechuan:Burma:Thailand:Indochina:Philippine Islands:Malaya:Celebes:Sumatra:Java:New Guinea:New Zealand:Caroline Islands:Eastern Canada:Central United States:Mexico:Brazil:Union of South Africa:Balkans:Italy:France:NW Europe:Germany:Czechoslovakia Hungary:Poland:Romania:Ukraine:Norway:Finland:Leningrad:Russia:Volga:Urals:Caucasus:India:Borneo:Eastern Australia:Hawaiian Islands:Kyushu:Manchuria:Japan'/>
+
+
+
+	    </attachment>
+		
+	<attachment name="unitAttachment" attachTo="factory_upgrade" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="isFactory" value="true"/>
+      <option name="canOnlyBePlacedInTerritoryValuedAtX" value="3"/>
+      <option name="consumesUnits" value="1:barracks"/>
+			<option name="constructionType" value="factory"/>
+			<option name="maxConstructionsPerTypePerTerr" value="2"/> <!-- This will allow 2 of the same type to occupy the territory at once -->
+			<!-- This will allow the upgrade unit to be placed -->
+			<option name="constructionsPerTerrPerTypePerTurn" value="1"/> <!-- Only 1 per turn, will prevent a upgrade and other to be placed during the same turn -->			
+	  			<option name='unitPlacementOnlyAllowedIn' value='Eastern Canada:Central United States:Mexico:Brazil:Union of South Africa:Balkans:Italy:France:NW Europe:Germany:Czechoslovakia Hungary:Poland:Romania:Ukraine:Norway:Finland:Leningrad:Russia:Volga:Urals:Caucasus:India:Borneo:Eastern Australia:Hawaiian Islands:Kyushu:Manchuria:Japan'/>
+	   <option name="createsUnitsList" value="1:factory"/>
+		
+    </attachment>
+	
+	
+    <!-- AA Gun -->
+    <attachment name="unitAttachment" attachTo="aaGun" javaClass="games.strategy.triplea.attachments.UnitAttachment" type="unitType">
+      <option name="isAA" value="true"/>
+      <option name="transportCost" value="3"/>
+      <option name="movement" value="1"/>
+    </attachment>
+    <!-- Territory Attachments -->
+<attachment name="territoryAttachment" attachTo="Afghanistan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Alaska" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Aleutians" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Algeria" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Amur" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Sudan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Angola" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Archangel" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Argentina Chile" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Armenia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>	
+<attachment name="territoryAttachment" attachTo="Balkans" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Baltic States" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Belgian Congo" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Belorussia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Bengal" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Borneo" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Brazil" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="victoryCity" value="1"/>
+	  
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Bulgaria" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Burma" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="originalOwner" value="British"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Buryatia S.S.R." javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Caroline Islands" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Caucasus" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+      <option name="unitProduction" value="4"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Celebes" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Crete" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>	
+<attachment name="territoryAttachment" attachTo="Central United States" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="10"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Ceylon" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Chinghai" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Corsica" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Cuba" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Czechoslovakia Hungary" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="East Poland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Eastern Australia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Eastern Canada" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Eastern Ukraine" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Eastern United States" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="16"/>
+      <option name="unitProduction" value="16"/>
+      <option name="capital" value="Americans"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Egypt" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Eire" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Ethiopia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Evenki National Okrug" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Finland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Formosa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="France" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="6"/>
+      <option name="victoryCity" value="1"/>
+      <option name="originalOwner" value="French"/>	  
+    </attachment>
+<attachment name="territoryAttachment" attachTo="French Equatorial Africa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="capital" value="French"/>	  
+    </attachment>
+<attachment name="territoryAttachment" attachTo="French Madagascar" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="French West Africa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="originalOwner" value="French"/>	  
+	  
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Fukien" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Germany" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="12"/>
+      <option name="unitProduction" value="12"/>
+      <option name="capital" value="Germans"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Gibraltar" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Greece" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Greenland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Guam" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Haiti" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Hawaiian Islands" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Henan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Himalaya" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Hokkaido" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Hubei" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Hulunbuir" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>	
+<attachment name="territoryAttachment" attachTo="Hunan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Iceland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="India" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Indochina" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Iraq" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>	
+<attachment name="territoryAttachment" attachTo="Irkutsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Italy" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="5"/>
+      <option name="unitProduction" value="5"/>
+      <option name="capital" value="Italians"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Iwo Jima" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Japan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="8"/>
+      <option name="unitProduction" value="8"/>
+      <option name="capital" value="Japanese"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Java" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Karelia S.S.R." javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="originalOwner" value="Russians"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Kazakh S.S.R." javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Kenya" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>	
+<attachment name="territoryAttachment" attachTo="Kiangsu" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="victoryCity" value="1"/>
+      <option name="originalOwner" value="Chinese"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Korea" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>	
+<attachment name="territoryAttachment" attachTo="Kwangtung" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Kyushu" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Leningrad" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>	
+<attachment name="territoryAttachment" attachTo="Libya" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Malaya" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Malta" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Manchuria" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="originalOwner" value="Chinese"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Marshall Islands" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Mexico" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Midway" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Mongolia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+      <option name="capital" value="Chinese"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Morocco" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Mozambique" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Naples" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="New Guinea" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="New Zealand" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Nigeria" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>	
+<attachment name="territoryAttachment" attachTo="Ningxia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Normandy" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="originalOwner" value="French"/>
+	  
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Northern Australia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Northern South America" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="NW Europe" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Norway" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Novosibirsk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Okinawa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Panama" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Papua" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Persia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Peruvian Central" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Philippine Islands" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Poland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Rhodesia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Romania" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Russia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="6"/>
+      <option name="unitProduction" value="6"/>
+      <option name="capital" value="Russians"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Sahara" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Sakhalin" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Sardinia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Saudi Arabia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Shikoku" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Siberia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Sicily" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Solomon Islands" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Soviet Far East" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Spain" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Suiyuan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Sumatra" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Sweden" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Switzerland" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Syria" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>	
+<attachment name="territoryAttachment" attachTo="Szechuan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Tahiti" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Thailand" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Tibet" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Tobruk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+    </attachment>	
+<attachment name="territoryAttachment" attachTo="Trans-Jordan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Turkestan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Turkey" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="0"/>
+      <option name="isImpassable" value="true"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Ukraine" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Union of South Africa" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+      <option name="victoryCity" value="1"/>
+	  
+    </attachment>
+<attachment name="territoryAttachment" attachTo="United Kingdom" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="8"/>
+      <option name="unitProduction" value="8"/>
+      <option name="capital" value="British"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Urals" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="3"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Vichy" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+      <option name="originalOwner" value="French"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Volga" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="4"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Vologda" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>	
+<attachment name="territoryAttachment" attachTo="Wake Island" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Western Australia" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Western Canada" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="2"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Western United States" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="12"/>
+      <option name="unitProduction" value="12"/>
+      <option name="victoryCity" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Xinjiang" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Yakut S.S.R." javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+<attachment name="territoryAttachment" attachTo="Yunnan" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+      <option name="production" value="1"/>
+    </attachment>
+    <!-- Canals -->
+    <attachment name="canalAttachment" attachTo="15 Sea Zone" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Suez Canal"/>
+      <option name="landTerritories" value="Egypt:Trans-Jordan"/>
+    </attachment>
+    <attachment name="canalAttachment" attachTo="34a Sea Zone" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Suez Canal"/>
+      <option name="landTerritories" value="Egypt:Trans-Jordan"/>
+    </attachment>
+    <attachment name="canalAttachment" attachTo="19 Sea Zone" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Panama Canal"/>
+      <option name="landTerritories" value="Panama"/>
+    </attachment>
+    <attachment name="canalAttachment" attachTo="20 Sea Zone" javaClass="games.strategy.triplea.attachments.CanalAttachment" type="territory">
+      <option name="canalName" value="Panama Canal"/>
+      <option name="landTerritories" value="Panama"/>
+    </attachment>
+
+
+            <!--  National Objectives -->
+    
+    <!-- Chinese Reinforcements -->
+
+	<attachment name="conditionAttachmentBurmaRoad" attachTo="Chinese" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="alliedOwnershipTerritories" value="United Kingdom:India:Bengal:Burma:Szechuan" count="5"/>
+    </attachment>
+	<attachment name="objectiveAttachment1_Burma_Road" attachTo="Chinese" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		<option name="conditions" value="conditionAttachmentBurmaRoad"/>
+    </attachment>
+    <attachment name="triggerAttachmentBurmaRoad" attachTo="Chinese" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+		<option name="conditions" value="conditionAttachmentBurmaRoad"/>
+		<option name="when" value="before:chinesePurchase"/>
+		<option name="purchase" value="artillery" count="1"/>
+    </attachment>	
+	
+	<attachment name="conditionAttachmentNotDoubleTigers" attachTo="Chinese" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="directPresenceTerritories" value="map" count="1"/>
+      <option name="unitPresence" value="flyingTiger" count="2"/>
+      <option name="invert" value="true"/>	  
+    </attachment>
+
+	<attachment name="conditionAttachmentNotTwiceTigers" attachTo="Chinese" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="directPresenceTerritories" value="map" count="2"/>
+      <option name="unitPresence" value="flyingTiger" count="1"/>
+      <option name="invert" value="true"/>	  
+    </attachment>
+
+	
+	<attachment name="conditionAttachmentFlyingTigers" attachTo="Chinese" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="alliedOwnershipTerritories" value="Western United States:Hawaiian Islands:Szechuan" count="3"/>
+      <option name="alliedOwnershipTerritories" value="Fukien:Indochina:Kwangtung:Formosa:Philippine Islands:Okinawa:Guam" count="1"/>
+	  <option name="conditions" value="conditionAttachmentNotDoubleTigers:conditionAttachmentNotTwiceTigers"/>
+    </attachment>
+	
+	<attachment name="objectiveAttachment2_Flying_Tigers" attachTo="Chinese" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentFlyingTigers"/>
+    </attachment>
+    <attachment name="triggerAttachmentFlyingTigers" attachTo="Chinese" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentFlyingTigers"/>
+      <option name="when" value="before:chinesePurchase"/>
+	  <option name="purchase" value="flyingTiger" count="1"/>
+    </attachment>		
+		
+   
+    <!-- Russian Lend-Lease -->
+	<attachment name="conditionAttachmentArchangelLease" attachTo="Russians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="alliedOwnershipTerritories" value="United Kingdom:Archangel:Volga" count="3"/>
+      <option name="enemyExclusionTerritories" value="3 Sea Zone:4 Sea Zone"/>
+ 	  <option name='turns' value='1-+'/>
+    </attachment>
+	<attachment name="objectiveAttachment1_Northern_Lend-Lease" attachTo="Russians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentArchangelLease"/>
+    </attachment>	
+   <attachment name="triggerAttachmentArchangelLease" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentArchangelLease"/>
+	  <option name="when" value="before:russianPurchase"/>
+	  <option name="purchase" value="aaGun" count="1"/>
+    </attachment>		
+
+
+	<attachment name="conditionAttachmentVladivostokLease" attachTo="Russians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="alliedOwnershipTerritories" value="Western United States:Alaska:Aleutians" count="3"/>
+      <option name="alliedOwnershipTerritories" value="Soviet Far East:Buryatia S.S.R." count="1"/>
+      <option name="alliedOwnershipTerritories" value="Amur:Yakut S.S.R.:Irkutsk:Evenki National Okrug" count="3"/>
+      <option name="enemyExclusionTerritories" value="63b Sea Zone"/>
+ 	  <option name='turns' value='1-+'/>
+    </attachment>
+	<attachment name="objectiveAttachment2_Eastern_Lend-Lease" attachTo="Russians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentVladivostokLease"/>
+    </attachment>	
+   <attachment name="triggerAttachmentVladivostokLease" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentVladivostokLease"/>
+      <option name="when" value="before:russianPurchase"/>
+	  <option name="purchase" value="artillery" count="1"/>
+    </attachment>		
+	
+	
+	<attachment name="conditionAttachmentPersiaLease" attachTo="Russians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="alliedOwnershipTerritories" value="Eastern United States:Persia:Turkestan:Kazakh S.S.R.:Urals" count="5"/>
+      <option name="enemyExclusionTerritories" value="34b Sea Zone"/>
+ 	  <option name='turns' value='1-+'/>
+    </attachment>
+	<attachment name="objectiveAttachment3_Southern_Lend-Lease" attachTo="Russians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentPersiaLease"/>
+    </attachment>	
+   <attachment name="triggerAttachmentPersiaLease" attachTo="Russians" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentPersiaLease"/>
+      <option name="when" value="before:russianPurchase"/>
+	  <option name="purchase" value="armour" count="1"/>
+    </attachment>		
+
+	
+	<!-- Axis Oil -->
+	<attachment name="objectiveAttachment1_German_Oil" attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="objectiveValue" value="2"/>
+      <option name="directOwnershipTerritories" value="Western United States:Northern South America:Romania:Egypt:Persia:Iraq:Burma:Caucasus:Armenia:Borneo:Sumatra:Java" count="each"/>
+    </attachment>
+	
+	<attachment name="objectiveAttachment1_Italian_Oil" attachTo="Italians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="objectiveValue" value="2"/>
+      <option name="directOwnershipTerritories" value="Western United States:Northern South America:Romania:Egypt:Persia:Iraq:Burma:Caucasus:Armenia:Borneo:Sumatra:Java" count="each"/>
+    </attachment>
+
+	<attachment name="objectiveAttachment1_Japanese_Oil" attachTo="Japanese" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="objectiveValue" value="2"/>
+      <option name="directOwnershipTerritories" value="Western United States:Northern South America:Romania:Egypt:Persia:Iraq:Burma:Caucasus:Armenia:Borneo:Sumatra:Java" count="each"/>
+    </attachment>
+		
+	
+
+    <!-- British Lend-Lease -->
+	<!--
+<attachment name="conditionAttachmentLondonLease" attachTo="British" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="alliedOwnershipTerritories" value="Eastern United States:United Kingdom" count="2"/>
+      <option name="enemyExclusionTerritories" value="8 Sea Zone:9 Sea Zone:10 Sea Zone"/>
+ 	  <option name='turns' value='1:2'/>
+    </attachment>
+	<attachment name="triggerAttachmentLondonAvail" attachTo="British" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
+      <option name="conditions" value="conditionAttachmentLondonLease"/>
+      <option name="when" value="before:britishPurchase"/>
+	  <option name="purchase" value="destroyer" count="1"/>
+    </attachment>	
+   -->
+   
+   
+   <!-- Cleanup Factory Upgrades -->
+	<attachment name="conditionAttachment_AlwaysTrue" attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+		<option name="switch" value="true"/>
+	</attachment>
+   
+   <attachment name="triggerAttachmentRemoveUpgradeGermans" attachTo="Germans" javaClass="TriggerAttachment" type="player">
+	  <option name="conditions" value="conditionAttachment_AlwaysTrue"/>
+	  <option name="removeUnits" value="all:factory_upgrade" count="999"/>
+	  <option name="when" value="after:germanEndTurn"/> <!-- Needs to happen "after" -->
+	</attachment>
+   <attachment name="triggerAttachmentRemoveUpgradeRussians" attachTo="Russians" javaClass="TriggerAttachment" type="player">
+	  <option name="conditions" value="conditionAttachment_AlwaysTrue"/>
+	  <option name="removeUnits" value="all:factory_upgrade" count="999"/>
+	  <option name="when" value="after:russianEndTurn"/> <!-- Needs to happen "after" -->
+	</attachment>
+   <attachment name="triggerAttachmentRemoveUpgradeJapanese" attachTo="Japanese" javaClass="TriggerAttachment" type="player">
+	  <option name="conditions" value="conditionAttachment_AlwaysTrue"/>
+	  <option name="removeUnits" value="all:factory_upgrade" count="999"/>
+	  <option name="when" value="after:japaneseEndTurn"/> <!-- Needs to happen "after" -->
+	</attachment>
+   <attachment name="triggerAttachmentRemoveUpgradeBritish" attachTo="British" javaClass="TriggerAttachment" type="player">
+	  <option name="conditions" value="conditionAttachment_AlwaysTrue"/>
+	  <option name="removeUnits" value="all:factory_upgrade" count="999"/>
+	  <option name="when" value="after:britishEndTurn"/> <!-- Needs to happen "after" -->
+	</attachment>
+   <attachment name="triggerAttachmentRemoveUpgradeFrench" attachTo="French" javaClass="TriggerAttachment" type="player">
+	  <option name="conditions" value="conditionAttachment_AlwaysTrue"/>
+	  <option name="removeUnits" value="all:factory_upgrade" count="999"/>
+	  <option name="when" value="after:frenchEndTurn"/> <!-- Needs to happen "after" -->
+	</attachment>
+   <attachment name="triggerAttachmentRemoveUpgradeItalians" attachTo="Italians" javaClass="TriggerAttachment" type="player">
+	  <option name="conditions" value="conditionAttachment_AlwaysTrue"/>
+	  <option name="removeUnits" value="all:factory_upgrade" count="999"/>
+	  <option name="when" value="after:italianEndTurn"/> <!-- Needs to happen "after" -->
+	</attachment>
+   <attachment name="triggerAttachmentRemoveUpgradeAmericans" attachTo="Americans" javaClass="TriggerAttachment" type="player">
+	  <option name="conditions" value="conditionAttachment_AlwaysTrue"/>
+	  <option name="removeUnits" value="all:factory_upgrade" count="999"/>
+	  <option name="when" value="after:americanEndTurn"/> <!-- Needs to happen "after" -->
+	</attachment>
+   
+   
+
+   
+   -->
+   
+    <!--  Rules Restrictions -->
+    <!-- Chinese Rules -->
+    <attachment name="rulesAttachment" attachTo="Chinese" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
+      <option name="movementRestrictionTerritories" value="Xinjiang:Chinghai:Ningxia:Tibet:Szechuan:Yunnan:Fukien:Suiyuan:Henan:Hubei:Hunan:Manchuria:Hulunbuir:Korea:Kiangsu:Kwangtung:Burma:Thailand:Indochina:Malaya"/>
+      <option name="movementRestrictionType" value="allowed"/>
+      <option name="productionPerXTerritories" value="2"/>
+      <option name="placementAnyTerritory" value="true"/>
+      <option name="placementCapturedTerritory" value="true"/>
+      <option name="placementPerTerritory" value="4"/>
+    </attachment>
+
+	<attachment name='playerAttachment' attachTo='Germans' javaClass='PlayerAttachment' type='player'>
+		<option name="placementLimit" value="owned:barracks:factory" count="1"/>
+	</attachment>
+	<attachment name='playerAttachment' attachTo='Russians' javaClass='PlayerAttachment' type='player'>
+		<option name="placementLimit" value="owned:barracks:factory" count="1"/>
+	</attachment>
+	<attachment name='playerAttachment' attachTo='Japanese' javaClass='PlayerAttachment' type='player'>
+		<option name="placementLimit" value="owned:barracks:factory" count="1"/>
+	</attachment>
+	<attachment name='playerAttachment' attachTo='British' javaClass='PlayerAttachment' type='player'>
+		<option name="placementLimit" value="owned:barracks:factory" count="1"/>
+	</attachment>
+	<attachment name='playerAttachment' attachTo='French' javaClass='PlayerAttachment' type='player'>
+		<option name="placementLimit" value="owned:barracks:factory" count="1"/>
+	</attachment>
+	<attachment name='playerAttachment' attachTo='Italians' javaClass='PlayerAttachment' type='player'>
+		<option name="placementLimit" value="owned:barracks:factory" count="1"/>
+	</attachment>
+	<attachment name='playerAttachment' attachTo='Americans' javaClass='PlayerAttachment' type='player'>
+		<option name="placementLimit" value="owned:barracks:factory" count="1"/>
+	</attachment>
+	
+	
+
+  </attachmentList>
+  <initialize>
+    <ownerInitialize>
+      <!-- German Owned Territories -->
+      <territoryOwner territory="Czechoslovakia Hungary" owner="Germans"/>
+      <territoryOwner territory="Finland" owner="Germans"/>
+      <territoryOwner territory="France" owner="Germans"/>
+      <territoryOwner territory="Germany" owner="Germans"/>
+      <territoryOwner territory="Algeria" owner="Germans"/>
+      <territoryOwner territory="NW Europe" owner="Germans"/>
+      <territoryOwner territory="Norway" owner="Germans"/>
+      <territoryOwner territory="Romania" owner="Germans"/>
+      <territoryOwner territory="Poland" owner="Germans"/>
+      <territoryOwner territory="Morocco" owner="Germans"/>
+      <territoryOwner territory="Normandy" owner="Germans"/>
+      <territoryOwner territory="Bulgaria" owner="Germans"/>
+      <territoryOwner territory="Karelia S.S.R." owner="Germans"/>
+      <territoryOwner territory="Baltic States" owner="Germans"/>
+      <territoryOwner territory="Ukraine" owner="Germans"/>
+      <territoryOwner territory="East Poland" owner="Germans"/>
+	  <territoryOwner territory="French West Africa" owner="Germans"/>
+      <territoryOwner territory="East Poland" owner="Germans"/>
+	  
+
+	  
+      <!-- Russian Owned Territories -->
+      <territoryOwner territory="Archangel" owner="Russians"/>
+      <territoryOwner territory="Belorussia" owner="Russians"/>
+      <territoryOwner territory="Buryatia S.S.R." owner="Russians"/>
+      <territoryOwner territory="Caucasus" owner="Russians"/>
+      <territoryOwner territory="Evenki National Okrug" owner="Russians"/>
+      <territoryOwner territory="Kazakh S.S.R." owner="Russians"/>
+      <territoryOwner territory="Eastern Ukraine" owner="Russians"/>
+      <territoryOwner territory="Novosibirsk" owner="Russians"/>
+      <territoryOwner territory="Russia" owner="Russians"/>
+      <territoryOwner territory="Soviet Far East" owner="Russians"/>
+      <territoryOwner territory="Urals" owner="Russians"/>
+      <territoryOwner territory="Yakut S.S.R." owner="Russians"/>
+      <territoryOwner territory="Volga" owner="Russians"/>
+      <territoryOwner territory="Turkestan" owner="Russians"/>
+      <territoryOwner territory="Irkutsk" owner="Russians"/>
+      <territoryOwner territory="Amur" owner="Russians"/>
+	  <territoryOwner territory="Vologda" owner="Russians"/>
+      <territoryOwner territory="Armenia" owner="Russians"/>
+      <territoryOwner territory="Turkestan" owner="Russians"/>
+      <territoryOwner territory="Leningrad" owner="Russians"/>
+
+	  
+      <!-- Japanese Owned Territories -->
+      <territoryOwner territory="Caroline Islands" owner="Japanese"/>
+      <territoryOwner territory="Indochina" owner="Japanese"/>
+      <territoryOwner territory="Formosa" owner="Japanese"/>
+      <territoryOwner territory="Iwo Jima" owner="Japanese"/>
+      <territoryOwner territory="Japan" owner="Japanese"/>
+      <territoryOwner territory="Kiangsu" owner="Japanese"/>
+      <territoryOwner territory="Manchuria" owner="Japanese"/>
+      <territoryOwner territory="Okinawa" owner="Japanese"/>
+      <territoryOwner territory="Sakhalin" owner="Japanese"/>
+      <territoryOwner territory="Hokkaido" owner="Japanese"/>
+      <territoryOwner territory="Shikoku" owner="Japanese"/>
+      <territoryOwner territory="Kyushu" owner="Japanese"/>
+	  <territoryOwner territory="Hulunbuir" owner="Japanese"/>
+	  <territoryOwner territory="Korea" owner="Japanese"/>
+	  <territoryOwner territory="Marshall Islands" owner="Japanese"/>
+	  <territoryOwner territory="Thailand" owner="Japanese"/>
+	  <territoryOwner territory="Indochina" owner="Japanese"/>
+	  
+	  
+	  
+	  
+      <!-- British Owned Territories -->
+      <territoryOwner territory="Sudan" owner="British"/>
+      <territoryOwner territory="Eastern Australia" owner="British"/>
+      <territoryOwner territory="Belgian Congo" owner="British"/>
+      <territoryOwner territory="Borneo" owner="British"/>
+      <territoryOwner territory="Burma" owner="British"/>
+      <territoryOwner territory="Sumatra" owner="British"/>
+      <territoryOwner territory="Eastern Canada" owner="British"/>
+      <territoryOwner territory="Egypt" owner="British"/>
+      <territoryOwner territory="Gibraltar" owner="British"/>
+      <territoryOwner territory="Iceland" owner="British"/>
+      <territoryOwner territory="India" owner="British"/>
+      <territoryOwner territory="Bengal" owner="British"/>
+      <territoryOwner territory="Kwangtung" owner="British"/>
+      <territoryOwner territory="New Guinea" owner="British"/>
+      <territoryOwner territory="New Zealand" owner="British"/>
+      <territoryOwner territory="Persia" owner="British"/>
+      <territoryOwner territory="Rhodesia" owner="British"/>
+      <territoryOwner territory="Saudi Arabia" owner="British"/>
+      <territoryOwner territory="Solomon Islands" owner="British"/>
+      <territoryOwner territory="Trans-Jordan" owner="British"/>
+      <territoryOwner territory="Union of South Africa" owner="British"/>
+      <territoryOwner territory="United Kingdom" owner="British"/>
+      <territoryOwner territory="Western Canada" owner="British"/>
+      <territoryOwner territory="Western Australia" owner="British"/>
+      <territoryOwner territory="Malaya" owner="British"/>
+      <territoryOwner territory="Celebes" owner="British"/>
+      <territoryOwner territory="Java" owner="British"/>
+      <territoryOwner territory="Ethiopia" owner="British"/>
+      <territoryOwner territory="Northern Australia" owner="British"/>
+      <territoryOwner territory="Nigeria" owner="British"/>
+      <territoryOwner territory="Kenya" owner="British"/>
+      <territoryOwner territory="Malta" owner="British"/>
+      <territoryOwner territory="Iraq" owner="British"/>
+      <territoryOwner territory="Ceylon" owner="British"/>
+	  <territoryOwner territory="Tobruk" owner="British"/>
+	  <territoryOwner territory="Papua" owner="British"/>
+
+	  
+      <!-- Italian Owned Territories -->
+      <territoryOwner territory="Italy" owner="Italians"/>
+      <territoryOwner territory="Libya" owner="Italians"/>
+      <territoryOwner territory="Balkans" owner="Italians"/>
+      <territoryOwner territory="Greece" owner="Italians"/>
+      <territoryOwner territory="Naples" owner="Italians"/>
+      <territoryOwner territory="Sardinia" owner="Italians"/>
+      <territoryOwner territory="Sicily" owner="Italians"/>
+      <territoryOwner territory="Corsica" owner="Italians"/>
+      <territoryOwner territory="Crete" owner="Italians"/>
+
+	  
+	  
+      <!-- US Chinese Owned Territories -->
+      <territoryOwner territory="Xinjiang" owner="Chinese"/>
+      <territoryOwner territory="Chinghai" owner="Chinese"/>
+      <territoryOwner territory="Ningxia" owner="Chinese"/>
+      <territoryOwner territory="Suiyuan" owner="Chinese"/>
+      <territoryOwner territory="Fukien" owner="Chinese"/>
+      <territoryOwner territory="Henan" owner="Chinese"/>
+      <territoryOwner territory="Hubei" owner="Chinese"/>
+      <territoryOwner territory="Hunan" owner="Chinese"/>
+      <territoryOwner territory="Szechuan" owner="Chinese"/>
+	  <territoryOwner territory="Yunnan" owner="Chinese"/>
+
+      <!-- American Owned Territories -->
+      <territoryOwner territory="Alaska" owner="Americans"/>
+      <territoryOwner territory="Central United States" owner="Americans"/>
+      <territoryOwner territory="Eastern United States" owner="Americans"/>
+      <territoryOwner territory="Greenland" owner="Americans"/>
+      <territoryOwner territory="Hawaiian Islands" owner="Americans"/>
+      <territoryOwner territory="Midway" owner="Americans"/>
+      <territoryOwner territory="Panama" owner="Americans"/>
+      <territoryOwner territory="Philippine Islands" owner="Americans"/>
+      <territoryOwner territory="Wake Island" owner="Americans"/>
+      <territoryOwner territory="Cuba" owner="Americans"/>
+      <territoryOwner territory="Western United States" owner="Americans"/>
+      <territoryOwner territory="Guam" owner="Americans"/>
+	  <territoryOwner territory="Aleutians" owner="Americans"/>
+
+	  <!-- French Owned Territories -->
+      <territoryOwner territory="French Equatorial Africa" owner="French"/>
+	  <territoryOwner territory="French Madagascar" owner="French"/>
+	  <territoryOwner territory="Tahiti" owner="French"/>
+	  <territoryOwner territory="Syria" owner="French"/>
+	  <territoryOwner territory="Haiti" owner="French"/>
+	  
+
+    </ownerInitialize>
+    <unitInitialize>
+      <!-- German Unit Placements -->
+      <unitPlacement unitType="infantry" territory="Normandy" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="bunker" territory="Normandy" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="infantry" territory="France" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="infantry" territory="NW Europe" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="bunker" territory="NW Europe" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="infantry" territory="Norway" quantity="2" owner="Germans"/>
+      <unitPlacement unitType="fighter" territory="Norway" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="bunker" territory="Norway" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="aaGun" territory="Germany" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="infantry" territory="Germany" quantity="3" owner="Germans"/>
+      <unitPlacement unitType="artillery" territory="Germany" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="fighter" territory="Germany" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="bomber" territory="Germany" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="factory" territory="Germany" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="armour" territory="Czechoslovakia Hungary" quantity="2" owner="Germans"/>
+      <unitPlacement unitType="infantry" territory="Poland" quantity="2" owner="Germans"/>
+      <unitPlacement unitType="infantry" territory="Finland" quantity="2" owner="Germans"/>
+      <unitPlacement unitType="bunker" territory="Finland" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="infantry" territory="Romania" quantity="2" owner="Germans"/>
+      <unitPlacement unitType="artillery" territory="Romania" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="armour" territory="Romania" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="fighter" territory="Romania" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="infantry" territory="Bulgaria" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="infantry" territory="Balkans" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="infantry" territory="Baltic States" quantity="4" owner="Germans"/>
+      <unitPlacement unitType="armour" territory="Baltic States" quantity="2" owner="Germans"/>
+      <unitPlacement unitType="infantry" territory="East Poland" quantity="3" owner="Germans"/>
+      <unitPlacement unitType="artillery" territory="East Poland" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="armour" territory="East Poland" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="infantry" territory="Ukraine" quantity="3" owner="Germans"/>
+      <unitPlacement unitType="artillery" territory="Ukraine" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="armour" territory="Ukraine" quantity="3" owner="Germans"/>
+      <unitPlacement unitType="fighter" territory="Ukraine" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="infantry" territory="Karelia S.S.R." quantity="2" owner="Germans"/>
+      <unitPlacement unitType="artillery" territory="Karelia S.S.R." quantity="1" owner="Germans"/>
+      <unitPlacement unitType="fighter" territory="Karelia S.S.R." quantity="1" owner="Germans"/>
+
+      <unitPlacement unitType="infantry" territory="Morocco" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="infantry" territory="Algeria" quantity="2" owner="Germans"/>
+      <unitPlacement unitType="artillery" territory="Algeria" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="infantry" territory="Libya" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="armour" territory="Libya" quantity="2" owner="Germans"/>
+	  <unitPlacement unitType="bunker" territory="French West Africa" quantity="1" owner="Germans"/>
+	  
+  	  <unitPlacement unitType="submarine" territory="11 Sea Zone" quantity="2" owner="Germans"/>
+	  <unitPlacement unitType="submarine" territory="7 Sea Zone" quantity="2" owner="Germans"/>
+	  <unitPlacement unitType="submarine" territory="3 Sea Zone" quantity="2" owner="Germans"/>
+	  <unitPlacement unitType="transport" territory="14c Sea Zone" quantity="1" owner="Germans"/>	  
+	  <unitPlacement unitType="submarine" territory="16a Sea Zone" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="destroyer" territory="16a Sea Zone" quantity="1" owner="Germans"/>	  
+      <unitPlacement unitType="transport" territory="16a Sea Zone" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="cruiser" territory="13b Sea Zone" quantity="1" owner="Neutral"/>
+	  <unitPlacement unitType="cruiser" territory="5a Sea Zone" quantity="2" owner="Germans"/>
+      <unitPlacement unitType="submarine" territory="5a Sea Zone" quantity="2" owner="Germans"/>
+      <unitPlacement unitType="destroyer" territory="5a Sea Zone" quantity="1" owner="Germans"/>	  
+      <unitPlacement unitType="transport" territory="5a Sea Zone" quantity="1" owner="Germans"/>
+
+
+      <!-- Russian Unit Placements -->
+      <unitPlacement unitType="infantry" territory="Archangel" quantity="2" owner="Russians"/>
+      <unitPlacement unitType="factory" territory="Leningrad" quantity="1" owner="Russians"/>
+      <unitPlacement unitType="aaGun" territory="Leningrad" quantity="1" owner="Russians"/>
+      <unitPlacement unitType="infantry" territory="Leningrad" quantity="5" owner="Russians"/>
+      <unitPlacement unitType="bunker" territory="Leningrad" quantity="3" owner="Russians"/>
+      <unitPlacement unitType="infantry" territory="Vologda" quantity="1" owner="Russians"/>
+      <unitPlacement unitType="infantry" territory="Belorussia" quantity="3" owner="Russians"/>
+	  <unitPlacement unitType="infantry" territory="Eastern Ukraine" quantity="2" owner="Russians"/>
+	  <unitPlacement unitType="artillery" territory="Eastern Ukraine" quantity="1" owner="Russians"/>
+	  <unitPlacement unitType="factory" territory="Caucasus" quantity="1" owner="Russians"/>
+      <unitPlacement unitType="aaGun" territory="Caucasus" quantity="1" owner="Russians"/>
+      <unitPlacement unitType="infantry" territory="Caucasus" quantity="4" owner="Russians"/>
+	  <unitPlacement unitType="bunker" territory="Caucasus" quantity="2" owner="Russians"/>
+      <unitPlacement unitType="infantry" territory="Armenia" quantity="1" owner="Russians"/>
+	  <unitPlacement unitType="factory" territory="Russia" quantity="1" owner="Russians"/>
+      <unitPlacement unitType="aaGun" territory="Russia" quantity="1" owner="Russians"/>
+      <unitPlacement unitType="infantry" territory="Russia" quantity="2" owner="Russians"/>
+      <unitPlacement unitType="fighter" territory="Russia" quantity="1" owner="Russians"/>
+      <unitPlacement unitType="armour" territory="Russia" quantity="1" owner="Russians"/>
+      <unitPlacement unitType="bunker" territory="Russia" quantity="4" owner="Russians"/>
+	  <unitPlacement unitType="infantry" territory="Volga" quantity="2" owner="Russians"/>
+	  <unitPlacement unitType="artillery" territory="Volga" quantity="1" owner="Russians"/>
+	  <unitPlacement unitType="infantry" territory="Kazakh S.S.R." quantity="1" owner="Russians"/>
+	  <unitPlacement unitType="artillery" territory="Kazakh S.S.R." quantity="1" owner="Russians"/>
+	  <unitPlacement unitType="infantry" territory="Urals" quantity="2" owner="Russians"/>
+	  <unitPlacement unitType="armour" territory="Urals" quantity="1" owner="Russians"/>
+	  <unitPlacement unitType="factory" territory="Urals" quantity="1" owner="Russians"/>
+	  <unitPlacement unitType="infantry" territory="Turkestan" quantity="1" owner="Russians"/>
+      <unitPlacement unitType="infantry" territory="Evenki National Okrug" quantity="2" owner="Russians"/>
+	  <unitPlacement unitType="infantry" territory="Irkutsk" quantity="2" owner="Russians"/>
+	  <unitPlacement unitType="armour" territory="Irkutsk" quantity="1" owner="Russians"/>
+	  <unitPlacement unitType="barracks" territory="Irkutsk" quantity="1" owner="Russians"/>
+	  <unitPlacement unitType="infantry" territory="Amur" quantity="1" owner="Russians"/>
+	  <unitPlacement unitType="bunker" territory="Amur" quantity="1" owner="Russians"/>
+	  <unitPlacement unitType="infantry" territory="Buryatia S.S.R." quantity="3" owner="Russians"/>
+      <unitPlacement unitType="aaGun" territory="Buryatia S.S.R." quantity="1" owner="Russians"/>
+      <unitPlacement unitType="bunker" territory="Buryatia S.S.R." quantity="1" owner="Russians"/>
+	  <unitPlacement unitType="infantry" territory="Soviet Far East" quantity="1" owner="Russians"/>
+
+	  <unitPlacement unitType="destroyer" territory="4 Sea Zone" quantity="1" owner="Russians"/>
+      <unitPlacement unitType="battleship" territory="5b Sea Zone" quantity="1" owner="Russians"/>
+      <unitPlacement unitType="cruiser" territory="16b Sea Zone" quantity="1" owner="Russians"/>
+	  <unitPlacement unitType="submarine" territory="63a Sea Zone" quantity="1" owner="Russians"/>
+  
+      <!-- Japanese Unit Placements -->
+      <unitPlacement unitType="infantry" territory="Hulunbuir" quantity="2" owner="Japanese"/>
+	  <unitPlacement unitType="infantry" territory="Manchuria" quantity="3" owner="Japanese"/>
+      <unitPlacement unitType="fighter" territory="Manchuria" quantity="1" owner="Japanese"/>
+      <unitPlacement unitType="bunker" territory="Manchuria" quantity="1" owner="Japanese"/>
+      <unitPlacement unitType="infantry" territory="Kiangsu" quantity="3" owner="Japanese"/>
+      <unitPlacement unitType="infantry" territory="Korea" quantity="2" owner="Japanese"/>
+      <unitPlacement unitType="bunker" territory="Korea" quantity="1" owner="Japanese"/>
+	  <unitPlacement unitType="infantry" territory="Thailand" quantity="3" owner="Japanese"/>
+      <unitPlacement unitType="artillery" territory="Thailand" quantity="1" owner="Japanese"/>
+	  <unitPlacement unitType="infantry" territory="Indochina" quantity="2" owner="Japanese"/>
+      <unitPlacement unitType="armour" territory="Indochina" quantity="1" owner="Japanese"/>
+	  <unitPlacement unitType="infantry" territory="Hokkaido" quantity="1" owner="Japanese"/>
+	  <unitPlacement unitType="infantry" territory="Shikoku" quantity="1" owner="Japanese"/>
+	  <unitPlacement unitType="infantry" territory="Kyushu" quantity="1" owner="Japanese"/>
+	  <unitPlacement unitType="infantry" territory="Okinawa" quantity="1" owner="Japanese"/>
+	  <unitPlacement unitType="infantry" territory="Iwo Jima" quantity="1" owner="Japanese"/>
+	  <unitPlacement unitType="bunker" territory="Iwo Jima" quantity="2" owner="Japanese"/>
+	  <unitPlacement unitType="bunker" territory="Caroline Islands" quantity="1" owner="Japanese"/>
+      <unitPlacement unitType="infantry" territory="Caroline Islands" quantity="3" owner="Japanese"/>
+	  <unitPlacement unitType="infantry" territory="Marshall Islands" quantity="1" owner="Japanese"/>
+      <unitPlacement unitType="fighter" territory="Formosa" quantity="1" owner="Japanese"/>
+      <unitPlacement unitType="factory" territory="Japan" quantity="1" owner="Japanese"/>
+      <unitPlacement unitType="aaGun" territory="Japan" quantity="1" owner="Japanese"/>
+      <unitPlacement unitType="infantry" territory="Japan" quantity="4" owner="Japanese"/>
+      <unitPlacement unitType="artillery" territory="Japan" quantity="1" owner="Japanese"/>
+      <unitPlacement unitType="armour" territory="Japan" quantity="1" owner="Japanese"/>
+      <unitPlacement unitType="fighter" territory="Japan" quantity="1" owner="Japanese"/>
+      
+      <unitPlacement unitType="transport" territory="51 Sea Zone" quantity="2" owner="Japanese"/>
+      <unitPlacement unitType="destroyer" territory="51 Sea Zone" quantity="1" owner="Japanese"/>
+      <unitPlacement unitType="carrier" territory="51 Sea Zone" quantity="2" owner="Japanese"/>
+      <unitPlacement unitType="fighter" territory="51 Sea Zone" quantity="4" owner="Japanese"/>
+      
+	  <unitPlacement unitType="transport" territory="61a Sea Zone" quantity="2" owner="Japanese"/>
+      <unitPlacement unitType="infantry" territory="61a Sea Zone" quantity="3" owner="Japanese"/>
+      <unitPlacement unitType="artillery" territory="61a Sea Zone" quantity="1" owner="Japanese"/>
+      <unitPlacement unitType="cruiser" territory="61a Sea Zone" quantity="2" owner="Japanese"/>
+      <unitPlacement unitType="carrier" territory="61a Sea Zone" quantity="1" owner="Japanese"/>
+      <unitPlacement unitType="fighter" territory="61a Sea Zone" quantity="2" owner="Japanese"/>
+      <unitPlacement unitType="battleship" territory="61a Sea Zone" quantity="1" owner="Japanese"/>
+      
+	  <unitPlacement unitType="transport" territory="62a Sea Zone" quantity="1" owner="Japanese"/>
+  	  <unitPlacement unitType="destroyer" territory="62a Sea Zone" quantity="1" owner="Japanese"/>
+  	  <unitPlacement unitType="submarine" territory="62a Sea Zone" quantity="1" owner="Japanese"/>
+
+	  
+      <unitPlacement unitType="transport" territory="62b Sea Zone" quantity="2" owner="Japanese"/>
+	  <unitPlacement unitType="fighter" territory="62b Sea Zone" quantity="2" owner="Japanese"/>
+      <unitPlacement unitType="carrier" territory="62b Sea Zone" quantity="1" owner="Japanese"/>
+      <unitPlacement unitType="cruiser" territory="62b Sea Zone" quantity="1" owner="Japanese"/>
+
+	  
+      <!-- British Unit Placements -->
+      <unitPlacement unitType="infantry" territory="Western Canada" quantity="1" owner="British"/>
+	  <unitPlacement unitType="armour" territory="Eastern Canada" quantity="1" owner="British"/>
+	  
+	  <unitPlacement unitType="factory" territory="United Kingdom" quantity="1" owner="British"/>
+      <unitPlacement unitType="aaGun" territory="United Kingdom" quantity="1" owner="British"/>
+      <unitPlacement unitType="infantry" territory="United Kingdom" quantity="2" owner="British"/>
+      <unitPlacement unitType="artillery" territory="United Kingdom" quantity="1" owner="British"/>
+      <unitPlacement unitType="armour" territory="United Kingdom" quantity="1" owner="British"/>
+      <unitPlacement unitType="fighter" territory="United Kingdom" quantity="2" owner="British"/>
+      <unitPlacement unitType="bomber" territory="United Kingdom" quantity="1" owner="British"/>  
+	  
+      <unitPlacement unitType="bunker" territory="Gibraltar" quantity="1" owner="British"/>
+      <unitPlacement unitType="bunker" territory="Malta" quantity="1" owner="British"/>
+      <unitPlacement unitType="aaGun" territory="Malta" quantity="1" owner="British"/>
+      <unitPlacement unitType="bunker" territory="Tobruk" quantity="1" owner="British"/>
+	  <unitPlacement unitType="infantry" territory="Egypt" quantity="3" owner="British"/>
+      <unitPlacement unitType="artillery" territory="Egypt" quantity="1" owner="British"/>
+      <unitPlacement unitType="armour" territory="Egypt" quantity="1" owner="British"/>
+      <unitPlacement unitType="fighter" territory="Egypt" quantity="1" owner="British"/>
+      <unitPlacement unitType="infantry" territory="Trans-Jordan" quantity="2" owner="British"/>
+      <unitPlacement unitType="infantry" territory="Iraq" quantity="1" owner="British"/>
+      <unitPlacement unitType="infantry" territory="Persia" quantity="1" owner="British"/>
+      <unitPlacement unitType="infantry" territory="Sudan" quantity="1" owner="British"/>
+      <unitPlacement unitType="infantry" territory="Ethiopia" quantity="1" owner="British"/>
+      <unitPlacement unitType="artillery" territory="Ethiopia" quantity="1" owner="British"/>
+	  <unitPlacement unitType="infantry" territory="Union of South Africa" quantity="2" owner="British"/>
+
+	  <unitPlacement unitType="infantry" territory="India" quantity="3" owner="British"/>
+      <unitPlacement unitType="aaGun" territory="India" quantity="1" owner="British"/>
+	  <unitPlacement unitType="infantry" territory="Bengal" quantity="1" owner="British"/>
+	  <unitPlacement unitType="bunker" territory="Bengal" quantity="1" owner="British"/>
+	  <unitPlacement unitType="infantry" territory="Burma" quantity="1" owner="British"/>
+	  <unitPlacement unitType="infantry" territory="Kwangtung" quantity="1" owner="British"/>
+	  <unitPlacement unitType="infantry" territory="Malaya" quantity="1" owner="British"/>
+	  <unitPlacement unitType="infantry" territory="Java" quantity="1" owner="British"/>
+	  <unitPlacement unitType="infantry" territory="New Guinea" quantity="1" owner="British"/>
+
+	  <unitPlacement unitType="infantry" territory="Western Australia" quantity="1" owner="British"/>
+	  <unitPlacement unitType="infantry" territory="Northern Australia" quantity="1" owner="British"/>
+	  <unitPlacement unitType="aaGun" territory="Northern Australia" quantity="1" owner="British"/>
+      <unitPlacement unitType="aaGun" territory="Eastern Australia" quantity="1" owner="British"/>
+      <unitPlacement unitType="infantry" territory="Eastern Australia" quantity="2" owner="British"/>
+      <unitPlacement unitType="artillery" territory="Eastern Australia" quantity="1" owner="British"/>
+      <unitPlacement unitType="infantry" territory="New Zealand" quantity="1" owner="British"/>
+      <unitPlacement unitType="fighter" territory="New Zealand" quantity="1" owner="British"/>
+   
+      <unitPlacement unitType="transport" territory="2b Sea Zone" quantity="1" owner="British"/>
+      <unitPlacement unitType="battleship" territory="2b Sea Zone" quantity="1" owner="British"/>
+
+      <unitPlacement unitType="destroyer" territory="6 Sea Zone" quantity="1" owner="British"/>
+      <unitPlacement unitType="cruiser" territory="6 Sea Zone" quantity="1" owner="British"/>
+	  
+      <unitPlacement unitType="transport" territory="9 Sea Zone" quantity="1" owner="British"/>
+      <unitPlacement unitType="destroyer" territory="9 Sea Zone" quantity="1" owner="British"/>
+	  
+      <unitPlacement unitType="fighter" territory="12 Sea Zone" quantity="1" owner="British"/>
+      <unitPlacement unitType="carrier" territory="12 Sea Zone" quantity="1" owner="British"/>
+      <unitPlacement unitType="destroyer" territory="12 Sea Zone" quantity="1" owner="British"/>
+	  
+	  <unitPlacement unitType="battleship" territory="15 Sea Zone" quantity="1" owner="British"/>
+      <unitPlacement unitType="cruiser" territory="15 Sea Zone" quantity="1" owner="British"/>
+      <unitPlacement unitType="destroyer" territory="15 Sea Zone" quantity="1" owner="British"/>
+	  
+      <unitPlacement unitType="fighter" territory="27 Sea Zone" quantity="1" owner="British"/>
+      <unitPlacement unitType="carrier" territory="27 Sea Zone" quantity="1" owner="British"/>
+      <unitPlacement unitType="destroyer" territory="27 Sea Zone" quantity="1" owner="British"/>
+	  <unitPlacement unitType="transport" territory="27 Sea Zone" quantity="1" owner="British"/>
+
+      <unitPlacement unitType="transport" territory="35a Sea Zone" quantity="1" owner="British"/>
+      <unitPlacement unitType="destroyer" territory="35a Sea Zone" quantity="1" owner="British"/>
+	  
+	  <unitPlacement unitType="cruiser" territory="37 Sea Zone" quantity="1" owner="British"/>
+	  
+ 	  <unitPlacement unitType="submarine" territory="38b Sea Zone" quantity="1" owner="British"/>
+ 	  <unitPlacement unitType="destroyer" territory="38b Sea Zone" quantity="1" owner="British"/>
+
+	  
+      <unitPlacement unitType="transport" territory="41 Sea Zone" quantity="1" owner="British"/>
+      <unitPlacement unitType="destroyer" territory="41 Sea Zone" quantity="1" owner="British"/>
+      <unitPlacement unitType="cruiser" territory="41 Sea Zone" quantity="1" owner="British"/>
+	    
+	  
+      <!-- Italian Unit Placements -->
+      <unitPlacement unitType="factory" territory="Italy" quantity="1" owner="Italians"/>
+      <unitPlacement unitType="aaGun" territory="Italy" quantity="1" owner="Italians"/>
+      <unitPlacement unitType="armour" territory="Italy" quantity="1" owner="Italians"/>
+      <unitPlacement unitType="fighter" territory="Italy" quantity="1" owner="Italians"/>
+      <unitPlacement unitType="infantry" territory="Italy" quantity="2" owner="Italians"/>
+      <unitPlacement unitType="artillery" territory="Italy" quantity="1" owner="Italians"/>
+      <unitPlacement unitType="infantry" territory="Naples" quantity="2" owner="Italians"/>
+      <unitPlacement unitType="infantry" territory="Libya" quantity="2" owner="Italians"/>
+      <unitPlacement unitType="armour" territory="Libya" quantity="1" owner="Italians"/>	  
+      <unitPlacement unitType="infantry" territory="Corsica" quantity="1" owner="Italians"/>
+      <unitPlacement unitType="infantry" territory="Sardinia" quantity="1" owner="Italians"/>
+      <unitPlacement unitType="infantry" territory="Sicily" quantity="1" owner="Italians"/>
+      <unitPlacement unitType="infantry" territory="Balkans" quantity="1" owner="Italians"/>
+      <unitPlacement unitType="infantry" territory="Greece" quantity="1" owner="Italians"/>
+      <unitPlacement unitType="infantry" territory="Crete" quantity="1" owner="Italians"/>
+
+      <unitPlacement unitType="transport" territory="14a Sea Zone" quantity="1" owner="Italians"/>
+      <unitPlacement unitType="cruiser" territory="14a Sea Zone" quantity="2" owner="Italians"/>
+      <unitPlacement unitType="battleship" territory="14a Sea Zone" quantity="1" owner="Italians"/>
+	  
+      <unitPlacement unitType="transport" territory="14b Sea Zone" quantity="1" owner="Italians"/>
+      <unitPlacement unitType="submarine" territory="14b Sea Zone" quantity="1" owner="Italians"/>
+      <unitPlacement unitType="destroyer" territory="14b Sea Zone" quantity="1" owner="Italians"/>
+
+      <unitPlacement unitType="submarine" territory="13a Sea Zone" quantity="2" owner="Italians"/>
+	  
+      <!-- French Placements -->
+      <unitPlacement unitType="infantry" territory="Syria" quantity="1" owner="French"/>
+      <unitPlacement unitType="barracks" territory="French Equatorial Africa" quantity="1" owner="French"/>
+      <unitPlacement unitType="infantry" territory="French Equatorial Africa" quantity="2" owner="French"/>
+      <unitPlacement unitType="fighter" territory="Haiti" quantity="1" owner="French"/>
+      <unitPlacement unitType="submarine" territory="45 Sea Zone" quantity="1" owner="French"/>
+
+	  
+      <!-- US Chinese Placements -->
+      <unitPlacement unitType="infantry" territory="Ningxia" quantity="1" owner="Chinese"/>
+      <unitPlacement unitType="infantry" territory="Chinghai" quantity="1" owner="Chinese"/>
+      <unitPlacement unitType="infantry" territory="Yunnan" quantity="1" owner="Chinese"/>
+      <unitPlacement unitType="infantry" territory="Suiyuan" quantity="2" owner="Chinese"/>
+      <unitPlacement unitType="infantry" territory="Szechuan" quantity="3" owner="Chinese"/>
+ 	  <unitPlacement unitType="aaGun" territory="Szechuan" quantity="1" owner="Chinese"/>
+ 	  <unitPlacement unitType="bunker" territory="Szechuan" quantity="1" owner="Chinese"/>
+ 	  <unitPlacement unitType="artillery" territory="Hubei" quantity="1" owner="Chinese"/>
+ 	  <unitPlacement unitType="infantry" territory="Hubei" quantity="1" owner="Chinese"/>
+ 	  <unitPlacement unitType="infantry" territory="Henan" quantity="1" owner="Chinese"/>
+ 	  <unitPlacement unitType="infantry" territory="Hunan" quantity="1" owner="Chinese"/>
+ 	  <unitPlacement unitType="infantry" territory="Fukien" quantity="1" owner="Chinese"/>
+ 	  <unitPlacement unitType="bunker" territory="Xinjiang" quantity="1" owner="Chinese"/>
+	  
+	  
+      <!-- American Unit Placements -->
+      <unitPlacement unitType="infantry" territory="Alaska" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="infantry" territory="Panama" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="infantry" territory="Central United States" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="armour" territory="Central United States" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="factory" territory="Eastern United States" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="aaGun" territory="Eastern United States" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="infantry" territory="Eastern United States" quantity="2" owner="Americans"/>
+      <unitPlacement unitType="fighter" territory="Eastern United States" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="bomber" territory="Eastern United States" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="infantry" territory="Hawaiian Islands" quantity="2" owner="Americans"/>
+      <unitPlacement unitType="fighter" territory="Hawaiian Islands" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="infantry" territory="Philippine Islands" quantity="2" owner="Americans"/>
+      <unitPlacement unitType="fighter" territory="Guam" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="factory" territory="Western United States" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="aaGun" territory="Western United States" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="infantry" territory="Western United States" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="fighter" territory="Western United States" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="bomber" territory="Western United States" quantity="1" owner="Americans"/>
+	  
+      <unitPlacement unitType="transport" territory="10 Sea Zone" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="destroyer" territory="10 Sea Zone" quantity="1" owner="Americans"/>
+	  
+	  <unitPlacement unitType="transport" territory="19 Sea Zone" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="cruiser" territory="19 Sea Zone" quantity="1" owner="Americans"/>
+
+      <unitPlacement unitType="transport" territory="50a Sea Zone" quantity="1" owner="Americans"/> 
+      <unitPlacement unitType="destroyer" territory="50a Sea Zone" quantity="1" owner="Americans"/>
+	  
+      <unitPlacement unitType="destroyer" territory="55a Sea Zone" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="fighter" territory="55a Sea Zone" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="carrier" territory="55a Sea Zone" quantity="1" owner="Americans"/>
+  
+      <unitPlacement unitType="transport" territory="56a Sea Zone" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="destroyer" territory="56a Sea Zone" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="cruiser" territory="56a Sea Zone" quantity="1" owner="Americans"/>
+	  
+      <unitPlacement unitType="submarine" territory="56b Sea Zone" quantity="1" owner="Americans"/>
+	  
+	  <unitPlacement unitType="transport" territory="57a Sea Zone" quantity="1" owner="Americans"/>
+      <unitPlacement unitType="battleship" territory="57a Sea Zone" quantity="1" owner="Americans"/>
+  
+      <unitPlacement unitType="infantry" territory="Vichy" quantity="2" owner="Neutral"/>
+      <unitPlacement unitType="infantry" territory="Peruvian Central" quantity="1" owner="Neutral"/>
+      <unitPlacement unitType="infantry" territory="Argentina Chile" quantity="2" owner="Neutral"/>
+
+	  
+	  
+    </unitInitialize>
+    <resourceInitialize>
+      <resourceGiven player="Germans" resource="PUs" quantity="54"/>
+      <resourceGiven player="Russians" resource="PUs" quantity="37"/>
+      <resourceGiven player="Japanese" resource="PUs" quantity="32"/>
+      <resourceGiven player="British" resource="PUs" quantity="62"/>
+      <resourceGiven player="French" resource="PUs" quantity="6"/>	  
+      <resourceGiven player="Italians" resource="PUs" quantity="17"/>
+      <resourceGiven player="Chinese" resource="PUs" quantity="0"/>
+      <resourceGiven player="Americans" resource="PUs" quantity="20"/>
+      <resourceGiven player="Germans" resource="techTokens" quantity="0"/>
+      <resourceGiven player="Russians" resource="techTokens" quantity="0"/>
+      <resourceGiven player="Japanese" resource="techTokens" quantity="0"/>
+      <resourceGiven player="British" resource="techTokens" quantity="0"/>
+      <resourceGiven player="Italians" resource="techTokens" quantity="0"/>
+      <resourceGiven player="Chinese" resource="techTokens" quantity="0"/>
+      <resourceGiven player="Americans" resource="techTokens" quantity="0"/>
+    </resourceInitialize>
+  </initialize>
+  <propertyList>
+    <!-- PLEASE KEEP YOUR PROPERTIES IN THIS ORDER!!! -->
+    <!-- TYPICAL OPTIONAL PROPERTIES -->
+    <!-- Bidding -->
+    <property name="Italians bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="Russians bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="Germans bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="British bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="Japanese bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    <property name="Americans bid" value="0" editable="true">
+      <number min="0" max="1000"/>
+    </property>
+    
+			<!--Victory Condition Properties-->
+        <property name="Allies Projection of Power VCs" value="19" editable="false">
+        </property>
+		<property name="Axis Projection of Power VCs" value="13" editable="false">
+        </property>
+		<property name="Projection of Power" value="false" editable="true">
+            <boolean/>
+        </property>
+		
+		<property name="Allies Honorable Victory VCs" value="21" editable="false">
+        </property>
+		<property name="Axis Honorable Victory VCs" value="16" editable="false">
+        </property>
+		<property name="Honorable Surrender" value="true" editable="true">
+            <boolean/>
+        </property>		
+		
+		<property name="Allies Total Victory VCs" value="24" editable="false">
+        </property>
+		<property name="Axis Total Victory VCs" value="19" editable="false">
+        </property>
+		<property name="Total Victory" value="false" editable="true">
+            <boolean/>
+        </property>
+	
+	
+    <property name="Low Luck" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Low Luck for AntiAircraft" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Low Luck for Technology" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Low Luck for Bombing and Territory Damage" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="National Objectives" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Tech Development" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="LHTR Heavy Bombers" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Heavy Bomber Dice Rolls" value="2" editable="false">
+      <number min="2" max="3"/>
+    </property>
+    <property name="Always on AA" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Kamikaze Airplanes" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Super Sub Defence Bonus" value="0" editable="true">
+      <number min="0" max="1"/>
+    </property>
+    <property name="Units Repair Hits End Turn" value="true" editable="true">
+      <boolean/>
+    </property>
+    <property name="Units Repair Hits Start Turn" value="false" editable="true">
+      <boolean/>
+    </property>
+    <!-- END OF TYPICAL OPTIONAL PROPERTIES -->
+    <!-- rules and tech -->
+    <property name="WW2V3" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="WW2V3 Tech Model" value="true" editable="false">
+      <boolean/>
+    </property>
+	
+	<property name="Use Triggers" value="true" editable="false">
+		<boolean/>
+	</property>
+	
+	
+    <property name="Use Shipyards" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="All Rockets Attack" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Rockets Can Fly Over Impassables" value="false" editable="false">
+      <boolean/>
+    </property>
+    <!-- These require an associated value in the attachments section above-->
+    <property name="Movement By Territory Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Production Per X Territories Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Unit Placement Per Territory Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Place in Any Territory" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Unplaced units live when not placed" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Occupied Territories" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- specific rules -->
+    <!-- land related -->
+    <property name="Blitz Through Factories And AA Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Roll AA Individually" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Choose AA Casualties" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="AA Territory Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- sea related -->
+    <property name="Partial Amphibious Retreat" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Shore Bombard Per Ground Unit Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Naval Bombard Casualties Return Fire" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Hari-Kari Units" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Allied Air Dependents" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Surviving Air Move To Land" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Air Attack Sub Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Ignore Transport In Movement" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Transport Casualties Restricted" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Unescorted Transport Dies" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Ignore Sub In Movement" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Defending Subs Sneak Attack" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Sub Retreat Before Battle" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Submersible Subs" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- Sub Control Sea Zone Restricted should be FALSE if there are any convoy zones! -->
+    <property name="Sub Control Sea Zone Restricted" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Subs Can End NonCombat Move With Enemies" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Previous Units Fight" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Two hit battleship" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- production related -->
+    <property name="Produce fighters on carriers" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Produce new fighters on old carriers" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Move existing fighters to new carriers" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Land existing fighters on new carriers" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="LHTR Carrier production rules" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Unit Placement In Enemy Seas" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Territory Turn Limit" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="maxFactoriesPerTerritory" value="2"/>
+    <property name="Unit Placement Restrictions" value="true" editable="false">
+      <boolean/>
+    </property>	
+	
+	
+    <property name="Placement Restricted By Factory" value="true" editable="false">
+      <boolean/>
+    </property>
+    <property name="Raids May Be Preceeded By Air Battles" value="false" editable="true">
+      <boolean/>
+    </property>
+    <property name="Damage From Bombing Done To Units Instead Of Territories" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- to do with neutrals, (set neutrals charge to zero if you plan on attacking neutrals) -->
+    <property name="neutralCharge" value="0"/>
+    <property name="Neutrals Are Impassable" value="false" editable="false">
+      <boolean/>
+    </property>
+    <property name="Neutrals Are Blitzable" value="true" editable="false">
+      <boolean/>
+    </property>
+    <!-- Map Name: also used for map utils when asked -->
+    <property name="mapName" value="world_war_ii_v3_deluxe" editable="false"/>
+    <!-- notes appear in the notes menu in the main screen, format as html -->
+    <property name="notes">
+      <value>
+	  
+<![CDATA[  
+						
+						<b>DELUXE WW2v3 October 1941</b><br>
+						Credits:
+						<br>
+						Triplelk Jason Clark - baseline <br>
+						Zero Pilot Mike McCaughey - integration <br>
+						ComradeKev - custom code and rules<br>
+						Seidelin - playtesting<br>
+						Cloud7707 - map changes, especially for Japanese islands<br>
+						Vodot - initial concept and inspirational artwork<br>
+						Argothair - coding, graphics, and scenario design<br>
+						<br>
+						<br>
+<b>OVERVIEW</b><br>
+This game is a deluxe version of the 'Anniversary' WWv3 1941 Edition, with additional territories, a new player (France), modified national objectives, reduced prices for ships, additional victory cities, defensive bunkers, and a new type of minor factory called a 'barracks.' The game begins in October 1941. This means that the German invasion of the Soviet Union has already begun, so the Germans already control the 'border' territories like the Baltic States, East Poland, and westenr Ukraine. Japan is poised to launch its suprise attack on Pearl Harbor and seize the Pacific colonies of the US and the UK. Free France has just begun to organize an effective resistance in French Equatorial Africa, and the Italian fleet is still a threat in the Mediterranean but has been noticeably worn down by repeated British attacks. For now, German subs run rampant in the north Atlantic, but the impending entry of the US into the war will soon change the balance of naval power there.
+<br>
+<b>MAP NOTES</b><br>
+<ul><li>Sicily has a land connection to Naples.</li>
+<li>Greece has a land connection to Crete.</li>
+<li>Tibet, Mexico, 'Northern South America', and Brazil are neutral, undefended territories. The first player to move a land unit into those territories during the combat move will take them over.</li>
+<li>Tibet is not worth any PUs, but it is still useful to the Chinese, who generate infantry based on the number of territories they control.</li>
+<li>Vichy France, Peru and Argentina are neutral, defended territories. Any player may attack them during the combat move to try to take control of them. Similarly, the Vichy French cruiser in Sea Zone 13b will attack any player that enters its territory. There is never any penalty for violating neutrality.</li>
+<li>The Eastern Mediterranean (SZ 15) does NOT directly connect to the western Black Sea (SZ 16a) by sea or air due to a limitation in the game engine. However, you can fly planes from the eastern Med through Bulgaria to the Black Sea (or vice versa).</li>
+<li>The oil derricks printed on some territories are each worth 2 PUs/turn if they are controlled by an Axis power, but they offer no special benefit to the Allies. The Allies are assumed to have enough oil from other sources (e.g., the mainland US) that they are not critically short on oil.</li>
+<li>Any enemy ship placed in a 'lend-lease' sea zone will cancel Russia's lend-lease for that region. The Axis can place a ship in SZ 3 or SZ 4 or both in order to block the northern lend-lease route.</li>
+<li>The Allies must control at least 1 of the territories marked with the "Flying Tiger" logo (an airplane with a mouth full of sharp teeth) in order to provide a Flying Tiger aircraft to China.</li>
+<li>Siberia, Mongolia, Himalaya, Afghanistan, Turkey, Saudi Arabia, Sahara, Angola, Mozambique, Spain, Sweden, Switzerland, and the unlabeled Arctic ice sheet are all totally impassible.</li></ul>
+<br>
+<b>REVISED NATIONAL OBJECTIVES</b>
+I (Argothair) have never really approved of the standard national objectives on most maps, becuase they reward players for doing things that players were strongly incentivized to do anyway. The UK always wants to liberate France, because it's worth a ton of cash and it has a victory city -- you don't have to bribe them to do so by giving them a national objective. Similarly, Germany always wants to conquer Leningrad and Stalingrad; they're worth lots of cash, they have factories, and they have victory cities. You don't have to give them an objective to do that; they'll try to do it anyway. In my view, national objectives should reward players for taking historically-flavored actions that would not be obviously useful just based on the map.
+<br><br>
+In this game, I have tried to follow that philosophy by limiting national objectives to two narrowly defined themes. First, the Axis get 2 PUs for each oil derrick they control -- the money goes to whoever controls the oil derrick. In other words, if Italy controls Egypt, then Italy gets 2 extra PUs above and beyond the printed value of Egypt on the map; if Germany controls Egypt, then Germany gets the extra PUs. There are derricks in Venezuela, Romania, the Caucasus, Armenia, Egypt, Iraq, Persia, Burma, Sumatra, Borneo, and Java.
+<br><br>
+Second, the Russians and the Chinese have the potential to gain specific units based on lend-lease routes. The Russians have three routes: northern, southern, and eastern. Each route is tied to a specific series of land territories that must be Allied-controlled, as well as one or two sea zones that must be cleared of enemy ships. If the route is open, you will get an extra piece automatically added to your 'placement' options, for free. The game will report them as "unplaced from previous turn." They count against your placement limits for a particular factory, but they do not cost you any money. If you do not want to place a unit right away, you can always save it for another turn. The Chinese have two lend-lease routes. First, the burma road will deliver a Chinese artillery if the Allies control India, Bengal, Burma, and Szechuan (which contained the wartime Chinese capital of Chongking). Note that control of Yunnan is not necessary; historically, when the Japanese threatened that region the Allies shifted their supply routes further north and began flying 'over the hump' to bypass that threat. Second, the Americans will deliver a volunteer squadron of fighter planes (known as the 'Flying Tigers') if the Allies control Los Angeles, Hawaii, Szechuan, and any one of the various islands near the southeast coast of Japan that are marked with a Flying Tiger symbol. The idea is that in order to deliver these medium-range fighters, the US would need a staging ground west of Hawaii from which the planes could take off and then land in central China. There also has to be a functional government in China to deliver the fighters to; if the Axis control Szechuan then the game assumes that Chiang Kaishek has been deposed and that only scattered warlords (who could not support even a volunteer air force) are left to continue the resistance. Note that the total number of Flying Tigers at any given time is limited to 2. If you already have 2 Chinese fighters at the start of the turn, then you will not receive any new fighters that turn, even if one or both of the fighters dies in combat. If you lose a fighter, you can receive new fighters next turn if the lend-lease route is still open.
+<br><br>
+<b>NEW UNIT TYPES</b><br>
+I have tried to keep the changes to the unit mix to a minimum, because I want the game to retain the flavor of WW2v3. There are three changes that I felt I could not avoid. First, there is a new type of factory called a 'barracks.' It can only be built in land areas that have at least 2 PUs of production (not including oil derricks), and it is capped at producing no more than 2 units per turn, even if the printed PU value is higher. For example, if you put a barracks in India, which is worth 3 PUs, then India could still only produced 2 units per turn. As the name implies, barracks are primarily for training ground troops. They cannot produce battleships, carriers, fighters, bombers, or tanks. New factories can only be built in territories worth at least 3 PUs. A barracks in a territory that is worth at least 3 PUs can be upgraded to a factory, although it is more cost-efficient to just build the factory directly if you can afford to do so.<br><br>
+Second, there is a defensive unit called a 'bunker.' Bunkers do not move, cannot be built, and participate only on defense. They hit on a 4 or less and have 2 hits, like a battleship. If you damage a bunker but do not destroy it during the same battle, it will immediately repair itself for free once the combat is over. Bunkers represent not just literal trenches and pillboxes (Normandy, NW Europe), but also the difficulty of conquering areas that had either very rough terrain (Finland, Amur, etc.) or millions of hostile civilians who would have had to be cleared through painstaking urban warfare (Leningrad, Moscow).<br><br>
+Finally, ships are cheaper. They have the same combat strengths and speed, they're just all more affordable to buy. I found that in classic WW2v3, you should almost never buy any more ships than you absolutely need to project power across an ocean -- it was not an interesting strategic decision. You either *need* a ship, or it's a terrible decision to buy one. With the lower prices, I think players will face more interesting choices about when to expand their navies beyond the bare minimum required to operate in a theater; you might actually volunteer to buy, e.g., a cruiser at 9 PUs for its bombardment ability, and not simply because you must have something to defend your transports.
+<br><br>
+<b>NEW VICTORY CITIES</b><br>
+I have added several new victory cities compared to the original WW2v3 map, especially in the Global South. A couple of cities may not be self-explanatory: Szechuan contained the Chinese wartime capital of Chungking; if the Axis had captured it then the Chinese Nationalist government might have fallen, since they had already evacuated from Shanghai and Wuhan earlier in the war. Irktusk was not an amazingly important Soviet city, but if the Axis capture it then it means that the Soviet position in the Pacific has essentially collapsed; if the Japanese had captured Buryatia (Vladivostok) then the Russians would most likely have kept fighting to take it back, but if the Japanese made it all the way to Irkutsk then the Soviets would have had to write off Pacific Siberia as lost. Please note that Brazil contains a victory city even though it is neutral at the start of the game, so if the Allies occupy it then their VC count will go up by one even though the Axis VC count will not change.<br><br>
+At the start of the game, the Allies control 17 victory cities and the Axis control 7 victory cities. By default, the Allies need 21 victory cities to win (a net gain of 4) and the Axis need 16 victory cities to win (a net gain of 9). The targets are intentionally asymmetrical because the Axis start with the momentum in the early game; if they are losing multiple victory cities, they're unlikely to ever catch up, but the Allies are expected to lose a few victory cities at first even if they are going to eventually go on to win the game. If you prefer a longer or shorter game, you can change the settings to 'total victory' (24 Allied / 19 Axis) or 'projection of power' (19 Allied / 13 Axis) in the map setup screen, or just stop playing whenever you and your opponent agree that the game's ultimate outcome is clear.
+<br><br>
+<b>CHINESE MOVEMENT LIMITS</b><br>
+In addition to obviously Chinese territories, the Chinese are allowed to attack and move into Hulunbuir, Manchuria, Korea, Kwangtung, Indochina, Thailand, and Burma. They cannot move into or attack any sea zones, so they cannot reach Formosa.<br><br>
+<b>AMERICAN SURPRISE</b><br>
+America was not expecting to join the war so quickly, so on their first turn, they only have 20 PUs to spend instead of their full income. In future turns, their income will be equal to what they collect on the map.<br><br>
+<b>STRATEGY HINTS</b><br>
+<ul><li>Germany -- you can take Leningrad and/or Stalingrad on the first turn, but you probably can't hold them against the immediate Russian counterattack, so consider whether these attacks serve your long-term strategy. Eliminating the bunkers while the territories are still weakly defended is useful, but you will need a critical mass of troops on the eastern front to continue to take and hold territory. Be careful about placing bunkers or factories in Ukraine; depending on where you focus your efforts, you might not hold that territory throughout the game. Your choice of which ships to attack in the Atlantic affects whether you can make a serious play for Egypt. If you sink Task Force G (the British carrier in Sea Zone 12) then the Axis can probably hold the southern Mediterranean (Sea Zone 14b) for quite some time, which allows you to ferry more troops from, e.g., the Balkans to Libya or Tobruk. However, if the British ships at Gibraltar and Alexandria are allowed to combine in Sea Zone 14b, then the Italians are unlikely to be able to push them out again. On the other hand, sinking a carrier, fighter, and destroyer will soak up most of your striking power for the first turn; you might be better off spreading your subs around to some of the more lightly-defended targets in order to delay an Allied attack on France.</li>
+<li>Russia -- Your Pacific territories are somewhat more valuable than they were in the original WW2v3, and there is a barracks and a VC in Irkutsk, so don't be too quick to abandon them to the Japanese. If you only build the 2 units per turn allowed by the starting barracks in Irkutsk, you will probably lose the territory sooner or later; it's up to you whether that's an acceptable loss. If not, you'll need to send some reinforcements, such as tanks from the Urala or planes from Moscow. Compared to the original WW2v3, your southern flank is somewhat safer, thanks to additional territories like Iraq and Sea Zone 35b that delay the progress of Italian and Japanese attacks in the Middle East. China is also somewhat larger. There is thus little need to rush troops to Persia or China in the opening, and you should especially not send Soviet troops into Tibet unless you absolutely need the most direct route to reinforce Szechuan, since a Soviet-owned Tibet will prevent the Chinese from counting it as one of their territories while giving you no additional income.</li>
+<li>Japan -- You have enough troops and transports to (barely) take every single Flying Tiger territory on the first turn if you get reasonably lucky on your dice, but it's an open question whether this is actually the best use of your time. You may prefer to get an early start on conquering Siberia or Burma, or you might want to concentrate your naval forces in the south Pacific to avoid having unprotected transports picked off by the 'Dutch' ships in Sea Zone 38b or the Free French sub off the coast of Tahiti. You have nine fighters that could potentially strike the US Pacific Fleet, and you can land some of them on the Marshall Islands if necessary, so you can make an attack that's broader than the historical Pearl Harbor if you wish, but this may interfere with your ability to take and hold enough territory on the Asian mainland to adequately fuel your economy.</li>
+<li>Britain -- You start the game with a very large economy, and it's up to you to decide how to use it. There are several reasonable 'bases' on the Pacific side of the map that you could invest in and hope to hold, including India, Eastern Australia, and even (with a bit of help from the Americans) New Guinea. If you don't build barracks or factories in this region, you will eventually lose it all, but that will take some time, and during that time you might make decisive gains on the European front that will compensate you for those losses; liberating, e.g., Norway, Northwest Europe, and French West Africa is collectively worth 10 PUs. Because the 'money islands' of Indonesia have their wealth partly represented by oil derricks, losing them will not be quite as painful for you as before, although they are still very useful for the Japanese. Note that Normandy, Vichy, and Paris are all original French territories and will revert to French control immediately after being liberated by the British, so don't plan on using mainland France to fuel your economy. One entertaining gambit is to build 5 British bombers on the first turn, leaving the Italian fleet with few places to hide.</li>
+<li>France -- The Free French forces are initially somewhat dispersed -- you have a fighter in Haiti that was historically intended for delivery to Paris, a sub in Tahiti representing volunteers from French Polynesia, and of course your main Free French Army in French Equatorial Africa. One obvious goal is to build up enough forces to attack French West Africa, but the bunker there is somewhat unforgiving; if you can't completely destroy it, then it won't do you any good. Another option is to have the French take Brazil -- it's ahistorical, but it gives you a 3-PU territory from which you can build tanks and airplanes. Finally, you can ignore French West Africa and send your forces marching northeast to assist with the defense of Egypt. If the British do manage to liberate Normandy or southern France, consider building a barracks there even if you can't hold the territory yet -- if the Italians capture it, and the British liberate it again, then on your next turn you'll be able to deploy units there.</li>
+<li>Italy -- The various islands bordering the central Mediterranean tend to be in two or even three sea zones at a time, meaning that they're easy to trade, but hard to keep the Allies out of unless you've got total control of the entire Med. Your starting armies are a long walk from the eastern front with Russia, so if you plan to send an expeditionary force (or even just can-opening tanks) to the eastern front, you'll need to get started on that project fairly early in order to arrive in time for the decisive battles. You have a little more cash than Italy did in the original WW2v3, but it will be challenging to project your power somewhere that really matters.</li>
+<li>America -- The additional Pacific islands, each of which is worth at least 1 PU, makes island hopping a somewhat more worthwhile strategy than the original WW2v3. Note that the US Pacific Coast (Sea Zone 56) has been split into three sections. The southernmost section (56a / San Diego) is closer to the south Pacific islands, and the central section (56b / San Francisco) is closer to Alaska and the Aleutian Islands, which now include a VC. The northernmost segment (56c / Seattle) is really only necessary if the US Pacific fleet is under heavy threat and needs a place to hide out of range of Japanese carriers. The only enemy-held territory you can reach directly from the US East Coast is Morocco, so consider walking newly built infantry to Eastern Canada, from where you can shuttle them to Norway, NW Europe, Sardinia, or Algeria.</li>
+<li>China -- China is larger and harder to destroy compared to the original WW2v3, and the potential damage they can do to Japan if left unchecked is higher, since they are allowed to occupy most of southeast and northeast Asia. Although Hong Kong is no longer a victory city, the Chinese wartime capital of Chungking (in Szechuan) is. You're allowed to move your AA gun out of Szechuan if you need to, but you can't get another one if it's destroyed, and you need Szechuan to collect either of your lend-lease objectives, so you will usually want to conduct your opening moves with an eye toward creating a buffer to protect Szechuan. If the Japanese move into Burma, consider liberating it yourself to protect your supply of artillery. Note that your income is based on the number of territories you control, not on their PU value, so Tibet is worth as much to you as Shanghai or Manchuria.</li></ul>
+
+
+
+        				
+        
+					]]></value>
+    </property>
+  </propertyList>
+</game>
+<!-- 
+						WW2V2 XML by Zero Pilot 9.08
+						Triplelk Jason Clark - baseline
+						Zero Pilot Mike McCaughey - integration
+						ComradeKev - custom code and rules
+						Seidelin - playtesting
+						Veqryn - Minor updates for engine 1.2.5.x, and again for engine 1.3.x.x
+						-->
